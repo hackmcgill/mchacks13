@@ -12,8 +12,6 @@ import Background from "./Background"
 
 import SocialMediaBar from "../SocialMedia/SocialMediaBar"
 
-import MLHBanner from "../../assets/images/mlh-trust-badge-2025-white.svg"
-
 const Nav = ({
   scrollToAbout,
   scrollToSponsor,
@@ -77,6 +75,7 @@ const Nav = ({
       {/*<NavLink href="https://forms.gle/2CHq5PZZLxuirVCT6" $mobile={mobile}>
         Volunteer
       </NavLink> */}
+      
     </>
   )
   return (
@@ -94,14 +93,12 @@ const Nav = ({
           <div className="Nav__socials">
             <SocialMediaBar />
           </div>
-          {/* <div className="Nav__mlh-banner">
-            <a href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white">
-              <img
-                src={MLHBanner}
-                alt="Major League Hacking 2025 Hackathon Season"
-              />
+          <div className="Nav__mlh-banner">
+            <a id="mlh-trust-badge" style={{ display: "block", maxWidth: "100px", minWidth: "60px", position: "fixed", right: "50px", top: "0", width: "10%", zIndex: "10000" }} href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2026-season&utm_content=white" target="_blank">
+            <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2026/mlh-trust-badge-2026-white.svg" alt="Major League Hacking 2026 Hackathon Season" style={{ width: "100%" }} />
             </a>
-          </div> */}
+          </div>
+          
         </Links>
       </div>
       <Background $scrolled={scrolled}>

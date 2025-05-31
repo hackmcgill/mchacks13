@@ -41,10 +41,10 @@ const Hero = () => (
       </div>
       <div className="hero__grid">
         <div className="hero__grid__location">
-          <h2 className="hero__grid__subheading">McGill University</h2>
+          <h2 className="hero__grid__subheading">McGill Downtown Campus</h2>
         </div>
         <div className="hero__grid__date">
-          <h2 className="hero__grid__subheading">Early 2026</h2>
+          <h2 className="hero__grid__subheading">January 17-18, 2026</h2>
         </div>
       </div>
       <div className="grid__icons">
