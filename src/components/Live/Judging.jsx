@@ -8,7 +8,7 @@ const Judging = ({ visible }) => (
   <Container className={!visible ? "hidden" : ""}>
     <Content>
       <Text>
-      <h1><b>McHacks 12 Judging Guidelines</b></h1>
+      <h1><b>McHacks 13 Judging Guidelines</b></h1>
         <h3><b>Judging Criteria</b></h3>
         <ul>
             <li><strong>Execution:</strong> Does the hack work? Is it easy to use? Quality of the user interface, design, and aesthetics?</li>
@@ -32,7 +32,7 @@ const Judging = ({ visible }) => (
             <li>The top projects will be bubbled up for a second round of judging on the top 3 teams, followed by a final decision.</li>
         </ul>
 
-        <h1><b>McHacks 12 Project Submission Rules</b></h1>
+        <h1><b>McHacks 13 Project Submission Rules</b></h1>
         <ul>
             <li>All work should be done during the hackathon.</li>
             <li><b>No commits should be made to your code repository (e.g., GitHub) after the project submission deadline 12:00 PM on Sunday, January 26, 2025, otherwise your project will be disqualified.</b></li>

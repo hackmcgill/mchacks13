@@ -59,20 +59,20 @@ const Nav = ({
           FAQ
         </NavLink>
       ) : null}
-      {schedule ? (
+      {/* {schedule ? (
         <NavLink href="/schedule" $mobile={mobile}>
           Schedule
         </NavLink>
-      ) : null}
+      ) : null} */}
       {docPage ? (
         <NavLink href="/" $mobile={mobile}>
           Home
         </NavLink>
       ) : null}
 
-      <NavLink href="https://app.mchacks.ca" $mobile={mobile}>
+      {/* <NavLink href="https://app.mchacks.ca" $mobile={mobile}>
         Apply
-      </NavLink>
+      </NavLink> */}
 
       {/*<NavLink href="https://forms.gle/2CHq5PZZLxuirVCT6" $mobile={mobile}>
         Volunteer
@@ -94,14 +94,14 @@ const Nav = ({
           <div className="Nav__socials">
             <SocialMediaBar />
           </div>
-          <div className="Nav__mlh-banner">
+          {/* <div className="Nav__mlh-banner">
             <a href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white">
               <img
                 src={MLHBanner}
                 alt="Major League Hacking 2025 Hackathon Season"
               />
             </a>
-          </div>
+          </div> */}
         </Links>
       </div>
       <Background $scrolled={scrolled}>

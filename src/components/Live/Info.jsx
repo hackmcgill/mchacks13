@@ -11,7 +11,7 @@ const Info = ({ visible }) => (
     <Content>
       <Text>
         <h2>
-          Welcome to McHacks 12!{" "}
+          Welcome to 3!{" "}
           <span role="img" aria-label="wave">
             👋
           </span>{" "}

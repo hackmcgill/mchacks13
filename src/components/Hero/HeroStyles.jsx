@@ -164,6 +164,14 @@ export const HeroStyles = styled.section`
     display: none; /* Leave in h1 for SEO */
   }
 
+  .hero__temp-heading {
+    font-family: "ArcadeClassic", san-serif;
+    font-size: 100px;
+    font-weight: 500;
+    color: ${styleVars.m12Maroon};
+    margin: 0;
+  }
+
   .hero__grass {
     width: 100vw;
   }

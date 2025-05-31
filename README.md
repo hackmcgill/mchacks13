@@ -1,6 +1,6 @@
-# [McHacks 12](https://mchacks.ca)
+# [McHacks 13](https://mchacks.ca)
 
-This repository contains the code behind the static site of McHacks 12.
+This repository contains the code behind the static site of McHacks 13.
 
 ## Setup
 

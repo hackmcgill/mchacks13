@@ -27,13 +27,16 @@ const Hero = () => (
         <img className="hero__cloud1" src={Cloud1} alt="Cloud1" />
         <img className="hero__cloud4" src={Cloud4} alt="Cloud4" />
       </div>
-      <h1 className="hero__heading">McHacks 12</h1>
+      <h1 className="hero__heading">McHacks 13</h1>
       <div className="hero__images-container">
-        <img
+        {/* <img
           className="hero__heading-image"
           src={McHacksImg}
           alt="McHacks 12"
-        />
+        /> */}
+        <h1 className="hero__temp-heading">
+          McHacks 13
+        </h1>
         <img className="hero__martlet" src={Martlet} alt="Martlet Icon" />
       </div>
       <div className="hero__grid">
@@ -41,7 +44,7 @@ const Hero = () => (
           <h2 className="hero__grid__subheading">McGill University</h2>
         </div>
         <div className="hero__grid__date">
-          <h2 className="hero__grid__subheading">January 25-26, 2025</h2>
+          <h2 className="hero__grid__subheading">Early 2026</h2>
         </div>
       </div>
       <div className="grid__icons">

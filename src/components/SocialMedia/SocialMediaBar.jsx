@@ -10,11 +10,11 @@ import Twitter from "../../assets/images/logos/mchacks12-x-logo.svg"
 
 const SocialMediaBar = () => (
   <Container>
-    <div className="SocialMediaBar__icon">
+    {/* <div className="SocialMediaBar__icon">
       <a href="https://discord.gg/bVG5uHQz" target="_blank" rel="noopener noreferrer">
         <img src={Discord} alt="Discord" />
       </a>
-    </div>
+    </div> */}
     <div className="SocialMediaBar__icon">
       <a href="https://mchacks-12.devpost.com/" target="_blank" rel="noopener noreferrer">
         <img src={Devpost} alt="Devpost" />
