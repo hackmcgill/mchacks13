@@ -12,8 +12,8 @@ import Cloud2 from "../../assets/images/designs/mchacks12-cloud2.svg"
 import Cloud3 from "../../assets/images/designs/mchacks12-cloud3.svg"
 import Cloud4 from "../../assets/images/designs/mchacks12-cloud4.svg"
 
-const apply = () => {
-  window.location = "https://app.mchacks.ca/"
+const interestForm = () => {
+  window.location = "https://forms.gle/Xp6Li1dXW4uNEQxp8"
 }
 
 // const live = () => {
@@ -59,7 +59,10 @@ const Hero = () => (
         Apply Now →
       </Button>*/}
       <div className="hero__grid__signup">
-        <SignUpForm className="hero__signup" />
+        {/* <SignUpForm className="hero__signup" /> */}
+        <Button onClick={interestForm}>
+          Interest Form
+        </Button>
       </div>
       {/* <Button onClick={live}>Live Site →</Button> */}
       <div className="hero__grass">
