@@ -29,7 +29,7 @@ const About = ({ scrollRef }) => (
         <p>
           Whether you're writing your first line of code, playing around with
           APIs, or building the next blockchain, McHacks is the place for you.
-          We'll see you this January at the 12th annual rendition of Canada's
+          We'll see you this January at the 13th annual rendition of Canada's
           original collegiate hackathon!
         </p>
       </Text>
