@@ -2,8 +2,6 @@ import React from "react"
 import Button from "./Button"
 import HeroStyles from "./HeroStyles"
 import SignUpForm from "./SignUpForm"
-
-import Grass from "../../assets/images/designs/mchacks12-grass-and-soil.svg"
 import McHacksLogo from "../../assets/images/designs/mchacks13-heroLogo.svg"
 import Moon from "../../assets/images/designs/mchacks13-moon.svg"
 import LeftCloud from "../../assets/images/designs/mchacks13-leftCloud.svg"
