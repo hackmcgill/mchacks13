@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 
 // import { Link } from "gatsby"
 import { slide as Menu } from "react-burger-menu"
-import HomeLogo from "../../assets/images/logos/mchacks13-home-logo.png"
+import HomeLogo from "../../assets/images/logos/mchacks13-home-logo.svg"
 
 import Container from "./Container"
 import IconContainer from "./IconContainer"
