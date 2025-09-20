@@ -3,27 +3,73 @@ import * as styleVars from "../variable"
 
 export const HeroStyles = styled.section`
   padding-top: 50px;
-  background: #8cdcfe;
+  background: #121a49;
+
+  .hero__wrapper {
+    margin-top: 50px;
+  }
 
   .hero__images-container {
     position: relative;
     width: 100%;
-    max-width: 600px;
     height: auto;
+    display: flex;
+    justify-content: space-between;
 
-    .hero__heading-image {
-      width: 100%;
-      height: auto;
-      display: block;
+    .hero__leftCloud-container {
+      position: relative;
     }
 
-    .hero__martlet {
+    .hero__leftMoon-stars {
       position: absolute;
-      top: 5%;
-      left: 5%;
-      width: 10%;
+      top: -15%;
+      left: 10%;
+    }
+
+    .hero__rightCloud-container {
+      position: relative;
+    }
+
+    .hero__saturn {
+      position: absolute;
+      top: -27%;
+      right: 20%;
+    }
+
+    .hero__star3 {
+      position: absolute;
+      top: 0;
+      right: 250px;
+    }
+    .hero__star4 {
+      position: absolute;
+      top: 80px;
+      right: 150px;
+    }
+
+    .hero__star1, .hero__star2, .hero__star3, .hero__star4, .hero__moon, .hero__saturn {
+      fill: white;
+      filter: drop-shadow(0 0 6px rgba(255,255,255,0.8));
+      animation: shine 2s infinite ease-in-out;
+    }
+
+    @keyframes shine {
+      0%, 100% {
+        filter: drop-shadow(0 0 4px rgba(255,255,255,0.6));
+      }
+      50% {
+        filter: drop-shadow(0 0 12px rgba(255,255,255,1));
+      }
+    }
+
+    .hero__heading-image {
+      width: 45%;
       height: auto;
-      transform: translate(-90%, -85%);
+      margin-left: -70px;
+      display: block;
+      fill: white;
+      filter: drop-shadow(0 0 6px rgba(255,255,255,0.8));
+    }
 
       @media only screen and (max-width: ${styleVars.mdUp}) {
         width: 8%;
@@ -93,15 +139,16 @@ export const HeroStyles = styled.section`
 
   .hero__grid {
     display: flex;
-    gap: 50px;
+    gap: 300px;
     max-width: 100%;
-    justify-content: flex-start;
-    margin-top: -20px;
+    justify-content: space-between;
+    margin-top: -50px;
     letter-spacing: 0.5px;
     word-spacing: 5px;
+    margin-bottom: 50px;
 
     & > div {
-      font-family: "ArcadeClassic", san-serif;
+      font-family: "Afacad", sans-serif;
       border-radius: 20px;
       display: flex;
       flex-direction: column;
@@ -151,12 +198,13 @@ export const HeroStyles = styled.section`
     }
 
     .hero__grid__subheading {
-      font-size: 24px;
+      font-size: 35px;
       line-height: normal;
       margin: 0;
       font-weight: 400;
       text-align: center;
-      color: ${styleVars.m12Maroon};
+      color: #d9f1ff;
+      letter-spacing: -1.2px;
     }
   }
 
