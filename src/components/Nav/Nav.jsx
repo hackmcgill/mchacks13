@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 
 // import { Link } from "gatsby"
 import { slide as Menu } from "react-burger-menu"
+import HomeLogo from "../../assets/images/logos/mchacks13-home-logo.svg"
 
 import Container from "./Container"
 import IconContainer from "./IconContainer"
@@ -17,9 +18,8 @@ const Nav = ({
   scrollToSponsor,
   scrollToFaq,
   schedule,
-  darkBackground = false,
   docPage = false,
-  hiddenBackground = false,
+  hiddenBackground = true,
 }) => {
   const [hasBorder, setHasBorder] = useState(false)
   const [scrolled, setScrolled] = useState(false)
@@ -41,14 +41,22 @@ const Nav = ({
   const NavItems = (mobile) => (
     <>
       {scrollToAbout ? (
+        <NavLink href="/">
+          <IconContainer>
+            <img src={HomeLogo} alt="McHacks Home Logo" />
+          </IconContainer>
+        </NavLink>
+      ) : null}
+
+      {scrollToAbout ? (
         <NavLink onClick={scrollToAbout} $mobile={mobile}>
-          About
+          ABOUT
         </NavLink>
       ) : null}
 
       {scrollToSponsor ? (
         <NavLink onClick={scrollToSponsor} $mobile={mobile}>
-          Sponsor
+          SPONSOR
         </NavLink>
       ) : null}
 
@@ -64,7 +72,7 @@ const Nav = ({
       ) : null} */}
       {docPage ? (
         <NavLink href="/" $mobile={mobile}>
-          Home
+          HOME
         </NavLink>
       ) : null}
 
@@ -76,21 +84,14 @@ const Nav = ({
         Volunteer
       </NavLink> */}
       <NavLink href="https://forms.gle/Xp6Li1dXW4uNEQxp8" $mobile={mobile}>
-        Interest Form
+        APPLY
       </NavLink>
       
     </>
   )
   return (
-    <Container
-      className={
-        (hasBorder ? "has-border " : "") +
-        (darkBackground ? "dark-background" : "")
-      }
-    >
+    <Container>
       <div>
-        <IconContainer>
-        </IconContainer>
         <Links $hasBorder={hasBorder}>
           {NavItems(false)}
           <div className="Nav__socials">
