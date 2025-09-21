@@ -16,7 +16,7 @@ export const NavLink = styled.a`
   &:hover,
   &:active {
     background: transparent;
-    color: ${styleVars.m12White};
+    color: ${styleVars.m13Orange};
   }
 
   .home-link {
