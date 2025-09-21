@@ -16,10 +16,36 @@ export const HeroStyles = styled.section`
     display: flex;
     justify-content: space-between;
 
+    .hero__star1, .hero__star2, .hero__star3, .hero__star4, .hero__moon, .hero__saturn {
+      fill: white;
+      filter: drop-shadow(0 0 6px rgba(255,255,255,0.8));
+      animation: shine 2.5s infinite ease-in-out, floatUpDown 3.5s ease-in-out infinite;
+    }
+    
+    .hero__leftCloud, .hero__rightCloud {
+      animation: floatUpDown 5s ease-in-out infinite;
+    }
+    
     .hero__leftCloud-container {
       position: relative;
     }
+    
+    .hero__leftCloud {
+      animation-delay: 1.7s;
+    }
 
+    .hero__rightCloud {
+      animation-delay: 3.3s;
+    }
+
+    .hero__star1 {
+      animation-delay: 3s;
+    }    
+    
+    .hero__star2 {
+      animation-delay: 1.3s;
+    }
+    
     .hero__leftMoon-stars {
       position: absolute;
       top: -15%;
@@ -29,29 +55,28 @@ export const HeroStyles = styled.section`
     .hero__rightCloud-container {
       position: relative;
     }
-
+    
     .hero__saturn {
       position: absolute;
       top: -27%;
       right: 20%;
+      animation-delay: 1.5s;
     }
 
     .hero__star3 {
       position: absolute;
       top: 0;
       right: 250px;
+      animation-delay: 1s;
     }
+
     .hero__star4 {
       position: absolute;
       top: 80px;
       right: 150px;
+      animation-delay: 0.3s;
     }
 
-    .hero__star1, .hero__star2, .hero__star3, .hero__star4, .hero__moon, .hero__saturn {
-      fill: white;
-      filter: drop-shadow(0 0 6px rgba(255,255,255,0.8));
-      animation: shine 2s infinite ease-in-out;
-    }
 
     @keyframes shine {
       0%, 100% {
@@ -61,6 +86,16 @@ export const HeroStyles = styled.section`
         filter: drop-shadow(0 0 12px rgba(255,255,255,1));
       }
     }
+
+    @keyframes floatUpDown {
+      0% {
+        transform: translateY(0); /* Start at original position */
+      }
+      50% {
+        transform: translateY(-10px); /* Move up by 10 pixels */
+      }
+    }
+
 
     .hero__heading-image {
       width: 45%;
