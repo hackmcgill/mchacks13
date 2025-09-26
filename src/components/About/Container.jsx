@@ -1,9 +1,12 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-  padding: 400px 40px 0 40px;
   position: relative;
-  background-color: #1A7076;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `
 
 export default Container

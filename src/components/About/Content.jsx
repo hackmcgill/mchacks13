@@ -3,54 +3,13 @@ import * as styleVars from "../variable"
 
 export const Content = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   max-width: 1440px;
-  margin: auto;
-  gap: 40px;
-
-  .bubbles {
-  }
-
-  .bubble-sm {
-    position: absolute;
-    width: 5rem;
-  }
-
-  .bubble-md {
-    position: absolute;
-    width: 8rem;
-  }
-
-  .bubble1 {
-    top: 12%;
-    left: 27%;
-  }
-
-  .bubble2 {
-    top: 20%;
-    left: 18%;
-  }
-
-  .bubble3 {
-    top: 25%;
-    left: 23%;
-  }
-
-  .bubble4 {
-    top: 40%;
-    left: 40%;
-  }
-
-  .bubble5 {
-    top: 25%;
-    right: 8%;
-  }
-
-  .bubble6 {
-    bottom: 3%;
-    left: 16%;
-  }
+  margin-top: -100px;
+  margin-bottom: 100px;
+  gap: 60px;
 
   @media only screen and (max-width: ${styleVars.mdUp}) {
     flex-direction: column;

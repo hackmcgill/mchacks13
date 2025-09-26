@@ -6,7 +6,6 @@ export default styled.div`
   justify-content: space-evenly;
   align-items: center;
   max-width: 1440px;
-  margin: auto;
   gap: 40px;
 
   .bubble-sm {

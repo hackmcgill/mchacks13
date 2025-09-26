@@ -2,24 +2,30 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 export const Text = styled.div`
-  max-width: 590px;
+  max-width: 552px;
   font-size: 16px;
   margin-top: 60px;
   height: min-content;
-  padding: 60px;
 
   h2 {
-    font-family: "Press Start 2P";
-    color: ${styleVars.m12White};
-    font-size: 24px;
-    font-weight: normal;
-    margin-top: 0;
+    color: #D9F1FF;
+    text-align: right;
+    font-family: "Averia Serif Libre";
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2px;
   }
 
   p {
-    font-family: "Space Mono";
-    color: ${styleVars.m12White};
-    margin-top: 0;
+    color: #D9F1FF;
+    text-align: right;
+    font-family: Afacad;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
 
   @media only screen and (max-width: ${styleVars.smUp}) {
