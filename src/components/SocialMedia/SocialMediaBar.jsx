@@ -2,11 +2,11 @@ import React from "react"
 import Container from "./SocialMediaBarContainer"
 
 import Discord from "../../assets/images/logos/discord.svg"
-import Devpost from "../../assets/images/logos/mchacks13-devpost-logo.svg"
-import Facebook from "../../assets/images/logos/mchacks13-fb-logo.svg"
-import GitHub from "../../assets/images/logos/mchacks13-github-logo.svg"
-import Instagram from "../../assets/images/logos/mchacks13-ig-logo.svg"
-import Twitter from "../../assets/images/logos/mchacks13-x-logo.svg"
+import { ReactComponent as Devpost } from "../../assets/images/logos/mchacks13-devpost-logo.svg"
+import { ReactComponent as Facebook } from "../../assets/images/logos/mchacks13-fb-logo.svg"
+import { ReactComponent as GitHub } from "../../assets/images/logos/mchacks13-github-logo.svg"
+import { ReactComponent as Instagram } from "../../assets/images/logos/mchacks13-ig-logo.svg"
+import { ReactComponent as Twitter } from "../../assets/images/logos/mchacks13-x-logo.svg"
 
 const SocialMediaBar = () => (
   <Container>
@@ -21,7 +21,7 @@ const SocialMediaBar = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={Facebook} alt="Facebook" />
+        <Facebook className="icon"/>
       </a>
     </div>
     <div className="SocialMediaBar__icon">
@@ -30,7 +30,7 @@ const SocialMediaBar = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={Instagram} alt="Instagram" />
+        <Instagram className="icon"/>
       </a>
     </div>
     <div className="SocialMediaBar__icon">
@@ -39,7 +39,7 @@ const SocialMediaBar = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={GitHub} alt="GitHub" />
+        <GitHub className="icon"/>
       </a>
     </div>
     <div className="SocialMediaBar__icon">
@@ -48,12 +48,12 @@ const SocialMediaBar = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={Twitter} alt="twitter" />
+        <Twitter className="icon"/>
       </a>
     </div>
     <div className="SocialMediaBar__icon">
       <a href="https://mchacks-12.devpost.com/" target="_blank" rel="noopener noreferrer">
-        <img src={Devpost} alt="Devpost" />
+        <Devpost className="icon"/>
       </a>
     </div>
   </Container>

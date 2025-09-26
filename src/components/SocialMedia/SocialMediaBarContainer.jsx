@@ -1,4 +1,6 @@
 import styled from "styled-components"
+import * as styleVars from "../variable"
+
 
 export const Container = styled.div`
   display: flex;
@@ -6,21 +8,20 @@ export const Container = styled.div`
   .SocialMediaBar__icon {
     margin-left: 14px;
     margin-left: calc(0.4vw + 5px); // NEW
-    transition: filter 0.3s ease;
 
-    &:hover {
-      filter: brightness(0) invert(1);
+    &:hover .icon {
+      color: ${styleVars.m13Orange};
     }
 
     > a {
       display: flex;
       padding: 5px;
     }
+  }
 
-    img {
-      height: 20px;
-      width: auto;
-    }
+  .icon {
+    color: ${styleVars.m13Red};
+    transition: color 0.3s ease;
   }
 `
 
