@@ -1,10 +1,11 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
 
+
 export const HeroStyles = styled.section`
   padding-top: 50px;
-  background: #121a49;
-
+  
+  
   .hero__wrapper {
     margin-top: 50px;
   }
