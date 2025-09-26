@@ -16,16 +16,6 @@ const mailTo = () => {
 const Sponsor = ({ scrollRef }) => (
   <Container ref={scrollRef}>
     <Content>
-      <div className="bubbles">
-        <img className="bubble-md bubble1" src={Bubble} alt="bubble"></img>
-        <img className="bubble-sm bubble2" src={Bubble} alt="bubble"></img>
-        <img className="bubble-sm bubble3" src={Bubble} alt="bubble"></img>
-        <img className="bubble-md bubble4" src={Bubble} alt="bubble"></img>
-        <img className="bubble-sm bubble5" src={Bubble} alt="bubble"></img>
-      </div>
-      <div>
-        <Image src={SponsorImg} />
-      </div>
       <Text>
         <h2>Sponsoring McHacks</h2>
         <p>
@@ -39,7 +29,7 @@ const Sponsor = ({ scrollRef }) => (
           technologies to solve real problems from the ground up. We've got a
           table with your name on it!
         </p>
-        <Button onClick={mailTo}>Become a Sponsor</Button>
+        {/* <Button onClick={mailTo}>Become a Sponsor</Button> */}
       </Text>
     </Content>
   </Container>

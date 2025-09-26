@@ -8,7 +8,7 @@ import HeartBar from "../../assets/images/designs/mchacks12-heartbar.svg"
 
 const FAQ = ({ scrollRef }) => (
   <Container ref={scrollRef}>
-    <img className="heartbar" src={HeartBar} alt="heart bar"></img>
+    {/* <img className="heartbar" src={HeartBar} alt="heart bar"></img> */}
     <WindowStyles>
       <div className="content">
         <h2>Any Questions?</h2>

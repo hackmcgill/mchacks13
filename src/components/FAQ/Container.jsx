@@ -1,23 +1,12 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
 
-import BgGridSquare from "../../assets/images/designs/mchacks12-grid.svg"
 
 const Container = styled.section`
   position: relative;
   height: 1900px;
 
-  background-color: ${styleVars.m12DarkestTeal};
 
-  background-image:
-  url(${BgGridSquare}),
-  linear-gradient(
-    to bottom, 
-    rgba(26, 112, 118, 1) 0%, 
-    rgba(0, 0, 0, 0) 10%,
-    rgba(0, 0, 0, 0) 90%,
-    rgba(248, 248, 248, 1) 99%
-  );
 
   background-size: cover;
   background-position: center;
