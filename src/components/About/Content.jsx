@@ -7,8 +7,6 @@ export const Content = styled.div`
   justify-content: space-evenly;
   align-items: center;
   max-width: 1440px;
-  margin-top: -100px;
-  margin-bottom: 100px;
   gap: 60px;
 
   @media only screen and (max-width: ${styleVars.mdUp}) {
