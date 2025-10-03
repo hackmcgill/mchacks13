@@ -5,6 +5,23 @@ import * as styleVars from "../variable"
 export const HeroStyles = styled.section`
   padding-top: 50px;
   
+  .hero__portal {
+    width: 20%;
+    margin: 200px 0px;
+
+    @media only screen and (max-width: 1600px) {
+      width: 20%;
+      margin: 60px 0px;
+    }
+
+    @media only screen and (max-width: 1400px) {
+      margin: 10px 0px;
+    }
+
+    @media only screen and (max-width: 1250px) {
+      display: none;
+    }
+  }
   
   .hero__wrapper {
     margin-top: 50px;
