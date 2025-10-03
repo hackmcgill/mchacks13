@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Container = styled.section`
   position: relative;
-  margin-top: 450px;
+  margin-top: 500px;
   margin-bottom: 300px;
   display: flex;
   padding-right: 200px;
@@ -10,6 +10,10 @@ export const Container = styled.section`
   justify-content: flex-end;
   align-items: flex-end;
   width: 100%;
+
+  @media (max-width: 1500px) {
+    margin-top: 300px;
+
 
   @media (max-width: 1200px) {
     margin-top: 200px;

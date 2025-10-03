@@ -9,16 +9,26 @@ export const HeroStyles = styled.section`
     width: 20%;
     margin: 200px 0px;
 
-    @media only screen and (max-width: 1700px) {
+    @media (max-width: 1800px) {
+      width: 22%;
+      margin: 150px 0px;
+    }
+
+    @media (max-width: 1700px) {
       width: 20%;
       margin: 100px 0px;
     }
 
-    @media only screen and (max-width: 1400px) {
+    @media (max-width: 1550px) {
+      width: 18%;
+      margin: 50px 0px;
+    }
+
+    @media (max-width: 1400px) {
       margin: 10px 0px;
     }
 
-    @media only screen and (max-width: 1250px) {
+    @media (max-width: 1250px) {
       display: none;
     }
   }
