@@ -69,7 +69,11 @@ const Hero = () => (
         {/* <Button onClick={interestForm}>Interest Form</Button> */}
       </div>
       {/* <Button onClick={live}>Live Site →</Button> */}
-      <img src={Portal} className="hero__portal" alt="Portal" />
+      <img 
+        src={Portal} 
+        className="hero__portal" 
+        alt="Portal" 
+      />
     </div>
   </HeroStyles>
 )
