@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Container = styled.section`
   position: relative;
-  margin-top: 500px;
+  margin-top: 560px;
   margin-bottom: 300px;
   display: flex;
   padding-right: 200px;
