@@ -1,68 +1,46 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
 
-import WindowSvg from "../../assets/images/designs/mchacks12-faq-window.svg"
-import WindowSvgMid from "../../assets/images/designs/mchacks12-faq-window-mid.svg"
-import WindowSvgLong from "../../assets/images/designs/mchacks12-faq-window-long.svg"
-
 export const WindowStyles = styled.div`
   --scaling-factor: 1 / 1442 * 100vw;
   position: relative;
   margin: auto;
-  top: 450px;
+  top: 200px;
 
-  width: calc(1271 * var(--scaling-factor));
+  width: calc(900 * var(--scaling-factor));
   height: calc(1172 * var(--scaling-factor));
-  max-width: 1271px;
-  max-height: 1172px;
-
+  max-width: 900px;
+  max-height: 1000px;
   text-align: center;
-
-  background-image: url(${WindowSvg});
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: rgba(170, 170, 170, 0.3);
+  backdrop-filter: blur(12px);
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 16px 56px;
 
   h2 {
-    font-family: "Press Start 2P";
-    color: ${styleVars.m12DarkestTeal};
-    font-size: 36px;
-    font-weight: 600;
+    font-family: "Averia Serif Libre";
+    color: ${styleVars.m13White};
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 700;
     padding-bottom: 10px;
   }
 
-
   .content {
     position: relative;
-    top: min(154px, calc(154 * var(--scaling-factor)));
-    left: min(20px, calc(20 * var(--scaling-factor)));
-
     height: calc(693 * var(--scaling-factor));
-    width: calc(1202 * var(--scaling-factor));
-    max-height: 693px;
-    max-width: 1202px;
-
-    padding-top: 270px;
+    padding-top: 120px;
     top: -130px;
   }
 
   .question {
-    font-family: "Space Mono";
+    font-family: "Afacad";
+    font-size: 16px;
     color: ${styleVars.m12White};
-  }
-
-  .question {
-    font-family: "Space Mono";
-    color: ${styleVars.m12White};
-  }
-
-  .questions {
-    width: 40%;
-    margin: auto;
-    max-width: 750px;
   }
 
   @media only screen and (max-width: 1400px) {
-    background-image: url(${WindowSvgMid});
     width: calc(1271 * var(--scaling-factor));
     height: calc(1315 * var(--scaling-factor));
     max-height: initial;
@@ -80,7 +58,6 @@ export const WindowStyles = styled.div`
   }
 
   @media only screen and (max-width: 1200px) {
-    background-image: url(${WindowSvgLong});
     width: calc(1279 * var(--scaling-factor));
     height: calc(1558 * var(--scaling-factor));
     max-height: initial;

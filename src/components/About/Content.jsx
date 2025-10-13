@@ -3,9 +3,13 @@ import * as styleVars from "../variable"
 
 export const Content = styled.div`
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  background-color: rgba(170, 170, 170, 0.3);
+  backdrop-filter: blur(12px);
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 16px 36px;
   max-width: 1440px;
   gap: 60px;
 
