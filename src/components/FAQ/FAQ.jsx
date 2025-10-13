@@ -11,7 +11,7 @@ const FAQ = ({ scrollRef }) => (
     {/* <img className="heartbar" src={HeartBar} alt="heart bar"></img> */}
     <WindowStyles>
       <div className="content">
-        <h2>Any Questions?</h2>
+        <h2>FAQ</h2>
         <div className="questions">
           <QuestionGroup>
             <Question question="What is a hackathon?">

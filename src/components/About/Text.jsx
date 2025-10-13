@@ -8,8 +8,9 @@ export const Text = styled.div`
 
 
   h1 {
-    color: #D9F1FF;
+    color: ${styleVars.m13White};
     font-family: "Averia Serif Libre";
+    text-align: center;
     font-size: 40px;
     font-style: italic;
     font-weight: 700;
@@ -19,7 +20,7 @@ export const Text = styled.div`
   }
 
   p {
-    color: #D9F1FF;
+    color: ${styleVars.m13White};
     font-family: Afacad, sans-serif;
     font-size: 25px;
     font-style: normal;

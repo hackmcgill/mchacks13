@@ -6,31 +6,13 @@ const Container = styled.section`
   position: relative;
   height: 1900px;
 
-
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
   @media only screen and (max-width: 1000px) {
     height: 2100px;
   }
 
-  .heartbar {
-    width: 20em;
-    position: absolute;
-    top: 16%;
-    right: 5%;
-
-    @media only screen and (max-width: 1000px) {
-      display: none;
-    }
-  }
-
   .QuestionBox {
-    border: 1px solid ${styleVars.hackBlack};
-    padding: 14px 10px;
-    border-radius: 5px;
+    padding: 14px 24px;
+    border-radius: 24px;
     text-align: left;
     font-size: 1em;
     cursor: pointer;
@@ -63,7 +45,7 @@ const Container = styled.section`
     }
 
     .answer {
-      font-family: "Space Mono";
+      font-family: "Afacad";
       color: ${styleVars.m12DarkestGrey};
       margin-top: 10px;
       font-size: 0.9em;
