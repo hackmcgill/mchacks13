@@ -33,31 +33,13 @@ export const WindowStyles = styled.div`
     font-size: 16px;
     color: ${styleVars.m12White};
   }
-  
-  @media only screen and (max-width: 1400px) {
-    .questions {
-      width: 50%;
-      max-width: 750px;
-    }
-  }
-
-  @media only screen and (max-width: 1200px) {
-    .questions {
-      width: 60%;
-      max-width: 750px;
-    }
-  }
 
   @media only screen and (max-width: 1000px) {
-    .questions {
-      width: 80%;
-      max-width: 500px;
-    }
-
+    
     .QuestionBox {
       width: 100%;
       padding: 16px 24px;
-      text-align: left;
+      //text-align: left;
       font-size: 1.2em;
       cursor: pointer;
       margin: 20px 0;
