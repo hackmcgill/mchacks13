@@ -4,7 +4,6 @@ import Container from "./Container"
 import QuestionGroup from "./QuestionGroup"
 import Question from "./Question"
 import WindowStyles from "./WindowStyles"
-import HeartBar from "../../assets/images/designs/mchacks12-heartbar.svg"
 
 const FAQ = ({ scrollRef }) => (
   <Container ref={scrollRef}>
