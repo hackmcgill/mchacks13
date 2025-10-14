@@ -66,15 +66,6 @@ const Container = styled.section`
       }
   }
 
-  @media only screen and (max-width: 1000px) {
-    height: 180px;
-    overflow: hidden;
-  }
-
-  @media only screen and (max-width: ${styleVars.smUp}) {
-    height: 200px;
-  }
-
   &.hidden {
     display: none !important;
   }
