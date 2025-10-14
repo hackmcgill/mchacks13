@@ -19,7 +19,6 @@ export const Text = styled.div`
 
   p {
     color: ${styleVars.m13White};
-    text-align: center;
     font-family: Afacad;
     font-size: 25px;
     font-style: normal;

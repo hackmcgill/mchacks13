@@ -1,12 +1,13 @@
 import styled from "styled-components"
 
-export const Container = styled.div`
+export const Container = styled.section`
   position: relative;
-  background: transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 200px;
+  right: 300px;
 
   @media only screen and (max-width: 1250px) {
     margin-top: 100px;
