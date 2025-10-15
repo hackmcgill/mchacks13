@@ -1,8 +1,12 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
 
+const currentPath = window.location.pathname;
+const isSpecialPage = !["/privacy/", "/code-of-conduct/", "/discord-guide/"].includes(currentPath);
+
 export const PageLink = styled.a`
-  color: ${styleVars.hackWhite};
+  color: ${isSpecialPage ? styleVars.hackWhite : styleVars.m13Red};
+  font-weight: 500;
   cursor: pointer;
   text-decoration: none;
   letter-spacing: 1px;
@@ -10,7 +14,7 @@ export const PageLink = styled.a`
 
   &:focus,
   &:hover {
-    color: ${styleVars.m12Maroon};
+    color: ${isSpecialPage ? styleVars.colorHackRed : styleVars.m12Maroon};
   }
 `
 
