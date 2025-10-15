@@ -1,9 +1,12 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
 
+const currentPath = window.location.pathname;
+const isSpecialPage = !["/privacy/", "/code-of-conduct/", "/discord-guide/"].includes(currentPath);
+
 export const Container = styled.footer`
-  background: linear-gradient(180deg, #1A7076 0.34%, #22425A 5.5%, #22425A 8%);
-  border-top: 2px solid ${styleVars.hackGrey};
+  background: ${isSpecialPage ? "rgba(170, 170, 170, 0.3)" : styleVars.hackWhite};
+  border-top: 1px solid ${isSpecialPage ? "rgba(255, 255, 255, 0.5)" : styleVars.m13Red};
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -13,7 +16,7 @@ export const Container = styled.footer`
   margin-top: 0;
   padding: 20px;
   gap: 32px;
-  font-family: "ArcadeClassic", sans-serif;
+  font-family: Afacad, sans-serif;
   font-size: 20px;
 
   @media only screen and (max-width: ${styleVars.lgUp}) {
