@@ -6,7 +6,8 @@ export const WindowStyles = styled.div`
   position: relative;
   margin: auto;
 
-  max-width: 900px;
+  width: calc(700 * var(--scaling-factor));
+  max-width: 700px;
   text-align: center;
   background-color: rgba(170, 170, 170, 0.3);
   backdrop-filter: blur(12px);
@@ -31,6 +32,20 @@ export const WindowStyles = styled.div`
     font-family: "Afacad";
     font-size: 16px;
     color: ${styleVars.m12White};
+  }
+
+  @media only screen and (max-width: 1000px) {
+    
+    .QuestionBox {
+      width: 100%;
+      padding: 16px 24px;
+      //text-align: left;
+      font-size: 1.2em;
+      cursor: pointer;
+      margin: 20px 0;
+      box-sizing: border-box;
+      height: auto;
+    }
   }
 `
 export default WindowStyles

@@ -4,12 +4,11 @@ import * as styleVars from "../variable"
 export const Text = styled.div`
   max-width: 552px;
   font-size: 16px;
-  margin-top: 60px;
   height: min-content;
 
   h2 {
-    color: #D9F1FF;
-    text-align: right;
+    color: ${styleVars.m13White};
+    text-align: center;
     font-family: "Averia Serif Libre";
     font-size: 40px;
     font-style: italic;
@@ -19,8 +18,7 @@ export const Text = styled.div`
   }
 
   p {
-    color: #D9F1FF;
-    text-align: right;
+    color: ${styleVars.m13White};
     font-family: Afacad;
     font-size: 25px;
     font-style: normal;

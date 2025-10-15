@@ -4,13 +4,8 @@ import * as styleVars from "../variable"
 
 const Container = styled.section`
   position: relative;
-  margin-top: 400px;
-  right: 200px;
-  height: 1600px;
-
-  @media only screen and (max-width: 1000px) {
-    height: 2100px;
-  }
+  margin-top: 600px;
+  left: 250px;
 
   .QuestionBox {
     padding: 14px 24px;
@@ -69,15 +64,6 @@ const Container = styled.section`
       .question {
         color: ${styleVars.m12DarkestTeal};
       }
-  }
-
-  @media only screen and (max-width: 1000px) {
-    height: 180px;
-    overflow: hidden;
-  }
-
-  @media only screen and (max-width: ${styleVars.smUp}) {
-    height: 200px;
   }
 
   &.hidden {

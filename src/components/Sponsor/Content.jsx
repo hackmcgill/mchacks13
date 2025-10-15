@@ -5,43 +5,13 @@ export default styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-color: rgba(170, 170, 170, 0.3);
+  backdrop-filter: blur(12px);
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 16px 36px;
   max-width: 1440px;
   gap: 40px;
-
-  .bubble-sm {
-    position: absolute;
-    width: 5rem;
-  }
-
-  .bubble-md {
-    position: absolute;
-    width: 8rem;
-  }
-
-  .bubble1 {
-    top: 5%;
-    left: 40%;
-  }
-
-  .bubble2 {
-    top: 24%;
-    left: 8%;
-  }
-
-  .bubble3 {
-    top: 15%;
-    right: 15%;
-  }
-
-  .bubble4 {
-    top: 25%;
-    left: 50%;
-  }
-
-  .bubble5 {
-    top: 50%;
-    right: 3%;
-  }
 
   @media only screen and (max-width: ${styleVars.mdUp}) {
     flex-direction: column;
@@ -49,10 +19,6 @@ export default styled.div`
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 40px;
-
-    .bubbles {
-      display: none;
-    }
   }
 
   @media only screen and (max-width: ${styleVars.smUp}) {

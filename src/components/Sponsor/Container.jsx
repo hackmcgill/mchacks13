@@ -2,14 +2,11 @@ import styled from "styled-components"
 
 export const Container = styled.section`
   position: relative;
-  margin-top: 500px;
-  margin-bottom: 300px;
+  margin-top: 360px;
   display: flex;
   padding-right: 200px;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
-  width: 100%;
+  align-items: center;
 
   @media (max-width: 1500px) {
     margin-top: 300px;

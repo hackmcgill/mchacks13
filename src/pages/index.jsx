@@ -6,13 +6,10 @@ import Hero from "../components/Hero/Hero"
 import About from "../components/About/About"
 import Sponsor from "../components/Sponsor/Sponsor"
 import FAQ from "../components/FAQ/FAQ"
+import Involvement from "../components/Involvement/Involvement"
 import Logos from "../components/Logos/Logos"
 import Footer from "../components/Footer/Footer"
 import EventInfo from "../components/EventInfo/EventInfo"
-
-import CarouselSpeaker from "../components/Carousel/CarouselSpeaker"
-import CarouselMentorAndJudges from "../components/Carousel/CarouselMentorAndJudges"
-import CarouselRecruiter from "../components/Carousel/CarouselRecruiter"
 
 const scrollTo = (ref, offset = 50) => {
   if (ref.current) {
@@ -46,6 +43,7 @@ const IndexPage = () => {
       <About scrollRef={aboutRef} />
       <EventInfo />
       <Sponsor scrollRef={sponsorRef} />
+      <Involvement />
       <FAQ scrollRef={faqRef} />
       {/*<CarouselSpeaker />
       <CarouselRecruiter />
