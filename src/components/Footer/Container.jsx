@@ -1,12 +1,19 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
 
-const currentPath = window.location.pathname;
-const isSpecialPage = !["/privacy/", "/code-of-conduct/", "/discord-guide/"].includes(currentPath);
-
 export const Container = styled.footer`
-  background: ${isSpecialPage ? "rgba(170, 170, 170, 0.3)" : styleVars.hackWhite};
-  border-top: 1px solid ${isSpecialPage ? "rgba(255, 255, 255, 0.5)" : styleVars.m13Red};
+  background: ${() =>
+    typeof window !== "undefined" &&
+    !["/privacy/", "/code-of-conduct/", "/discord-guide/"].includes(window.location.pathname)
+      ? "rgba(170, 170, 170, 0.3)"
+      : styleVars.hackWhite};
+
+  border-top: ${() =>
+    typeof window !== "undefined" &&
+    !["/privacy/", "/code-of-conduct/", "/discord-guide/"].includes(window.location.pathname)
+      ? "1px solid rgba(255, 255, 255, 0.5)"
+      : `1px solid ${styleVars.m13Red}`};
+
   display: flex;
   width: 100%;
   justify-content: space-between;
