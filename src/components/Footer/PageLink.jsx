@@ -3,25 +3,25 @@ import * as styleVars from "../variable"
 
 
 export const PageLink = styled.a`
-  color: ${() =>
-    typeof window !== "undefined" &&
-    !["/privacy/", "/code-of-conduct/", "/discord-guide/"].includes(window.location.pathname)
-      ? styleVars.hackWhite
-      : styleVars.m13Red};
+  ${props => props.$isHomePage ? `
+    color: ${styleVars.hackWhite};
+    &:focus,
+    &:hover {
+      color: ${styleVars.colorHackRed};
+    }
+  ` : `
+    color: ${styleVars.m13Red};
+    &:focus,
+    &:hover {
+      color: ${styleVars.m12Maroon};
+    } 
+  `}  
+
   font-weight: 500;
   cursor: pointer;
   text-decoration: none;
   letter-spacing: 1px;
   word-spacing: 3px;
-
-  &:focus,
-  &:hover {
-    color: ${() =>
-      typeof window !== "undefined" &&
-      !["/privacy/", "/code-of-conduct/", "/discord-guide/"].includes(window.location.pathname)
-        ? styleVars.colorHackRed
-        : styleVars.m12Maroon};
-  }
 `
 
 export default PageLink
