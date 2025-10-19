@@ -6,8 +6,6 @@ import Image from "./Image"
 import Text from "./Text"
 import Button from "./Button"
 
-import SponsorImg from "../../assets/images/designs/mchacks12-sponsor-image.svg"
-import Bubble from "../../assets/images/designs/mchacks12-bubble.svg"
 
 const mailTo = () => {
   window.location = "mailto:sponsorship@mchacks.ca?Subject=Hello!"

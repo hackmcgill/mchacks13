@@ -11,44 +11,60 @@ import {
 import Container from "./Container"
 import Links from "./Links"
 import PageLink from "./PageLink"
+import {Location } from "@reach/router"
 import SocialLink from "./SocialLink"
 
+const pageLinks = [
+  { href: "/code-of-conduct", text: "Code of Conduct" },
+  { href: "/privacy", text: "Privacy Policy" },
+  { href: "/discord-guide", text: "Discord Guide" },
+  { href: "https://hackp.ac/coc", text: "MLH Code of Conduct", external: true },
+  // TODO uhhhh is this supposed to be todo for 2025???!!!!
+  // { href: "/press-kit", text: "Press Kit" },
+]
+
+const socialLinks = [
+  { href: "mailto:contact@mchacks.ca?Subject=Hello!", icon: faEnvelope },
+  { href: "https://fb.com/mcgillhacks", icon: faFacebookSquare },
+  { href: "https://instagram.com/mcgillhacks", icon: faInstagram },
+  { href: "https://twitter.com/mcgillhacks", icon: faXTwitter },
+]
+
 const Footer = () => (
-  <Container>
-    <Links>
-      <PageLink href="/code-of-conduct">Code of Conduct</PageLink>
-      <PageLink href="/privacy">Privacy Policy</PageLink>
-      <PageLink href="/discord-guide">Discord Guide</PageLink>
-      <PageLink href="https://hackp.ac/coc" target="_blank">MLH Code of Conduct</PageLink>
-      {/* TODO uhhhh is this supposed to be todo for 2025???!!!!
-        <PageLink>
-          Press Kit
-      </PageLink> */}
-    </Links>
-
-    <Links className="footer__social-links">
-      <SocialLink
-        href="mailto:contact@mchacks.ca?Subject=Hello!"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon icon={faEnvelope}/>
-      </SocialLink>
-
-      <SocialLink href="https://fb.com/mcgillhacks" target="_blank">
-        <FontAwesomeIcon icon={faFacebookSquare} />
-      </SocialLink>
-
-      <SocialLink href="https://instagram.com/mcgillhacks" target="_blank">
-        <FontAwesomeIcon icon={faInstagram} />
-      </SocialLink>
-
-      <SocialLink href="https://twitter.com/mcgillhacks" target="_blank">
-        <FontAwesomeIcon icon={faXTwitter} />
-      </SocialLink>
-    
-    </Links>
-  </Container>
+  <Location>
+    {({ location }) => {
+      const isHomePage = !location.pathname.includes('/discord-guide/') && !location.pathname.includes('/privacy') && !location.pathname.includes('/code-of-conduct/');
+      return (
+        <Container $isHomePage={isHomePage}>
+          <Links>
+            {pageLinks.map(({ href, text, external }) => (
+              <PageLink
+                key={text}
+                $isHomePage={isHomePage}
+                href={href}
+                target={external ? "_blank" : undefined}
+              >
+                {text}
+              </PageLink>
+            ))}
+          </Links>
+          <Links className="footer__social-links">
+            {socialLinks.map(({ href, icon }) => (
+              <SocialLink
+                key={href}
+                $isHomePage={isHomePage}
+                href={href}
+                target="_blank"
+                rel={icon === faEnvelope ? undefined : "noopener noreferrer"}
+                >
+                <FontAwesomeIcon icon={icon} />
+                </SocialLink>
+            ))}
+          </Links>
+        </Container>
+      )
+    }}
+  </Location>
 )
 
 export default Footer
