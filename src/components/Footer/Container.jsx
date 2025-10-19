@@ -2,17 +2,16 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 export const Container = styled.footer`
-  background: ${() =>
-    typeof window !== "undefined" &&
-    !["/privacy/", "/code-of-conduct/", "/discord-guide/"].includes(window.location.pathname)
-      ? "rgba(170, 170, 170, 0.3)"
-      : styleVars.hackWhite};
 
-  border-top: ${() =>
-    typeof window !== "undefined" &&
-    !["/privacy/", "/code-of-conduct/", "/discord-guide/"].includes(window.location.pathname)
-      ? "1px solid rgba(255, 255, 255, 0.5)"
-      : `1px solid ${styleVars.m13Red}`};
+  ${props => props.$isHomePage ? `
+    background: rgba(170, 170, 170, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+  ` : `
+    background: ${styleVars.hackWhite};
+    border-top: 1px solid ${styleVars.m13Red};
+  `}
+
+  
 
   display: flex;
   width: 100%;
