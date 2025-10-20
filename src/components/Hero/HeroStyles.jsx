@@ -27,10 +27,6 @@ export const HeroStyles = styled.section`
     @media (max-width: 1400px) {
       margin: 10px 0px;
     }
-
-    @media (max-width: 1250px) {
-      display: none;
-    }
   }
   
   .hero__wrapper {
@@ -134,17 +130,6 @@ export const HeroStyles = styled.section`
       filter: drop-shadow(0 0 6px rgba(255,255,255,0.8));
     }
 
-      @media only screen and (max-width: ${styleVars.mdUp}) {
-        width: 8%;
-      }
-
-      @media only screen and (max-width: ${styleVars.smUp}) {
-        width: 7%;
-      }
-
-      @media only screen and (max-width: ${styleVars.xsUp}) {
-        width: 6%;
-      }
     }
   }
 
@@ -226,99 +211,62 @@ export const HeroStyles = styled.section`
     margin-bottom: -10px;
   }
 
-  @media only screen and (max-width: ${styleVars.mdUp}) {
-    padding-top: 30px;
+  @media screen and (max-width: ${styleVars.xsUp}) {
+     .hero__wrapper {
+        margin-top: 60px !important;
+       padding-top: 10px;
+        gap: 10px;
+     }
 
-    .hero__wrapper {
-      padding-top: 200px;
-      gap: 20px;
+     .hero__leftCloud, .hero__rightCloud {
+        width: 136px;
+     }
+
+     .hero__moon {
+        width: 41px;
+     }
+
+     .hero__star1, .hero__star2 {
+        width: 25px;
+    }
+
+    
+    .hero__heading-image {
+      height: 50px !important;
+      margin-left: -20px !important;
+    }
+
+    .hero__saturn {
+       width: 56px;
+    }
+
+    .hero__star3 {
+        width: 32px;
+        top: -20px !important;
+        left: 0px;
+    }
+
+    .hero__star4 {
+        width: 36px;
+        top: 30px !important;
+        left: 20px;
     }
 
     .hero__grid {
-      margin: 10px;
-      max-width: 720px;
+      display: flex;
+      gap: 20px;
+      margin-top: -60px;
+      margin-bottom: 20px;
     }
 
-    .hero__images-container {
-      max-width: 450px;
-    }
 
     .hero__grid__subheading {
-      font-size: 20px;
-    }
-
-    button {
-      font-size: 16px;
-      padding: 10px 20px;
+      font-size: 13px !important;
     }
   }
-  @media only screen and (max-width: ${styleVars.smUp}) {
-    padding-top: 10px;
-    .hero__wrapper {
-      padding-top: 130px;
-      gap: 15px;
-    }
+}
 
-    .hero__grid {
-      margin: 10px;
-      flex-direction: column;
-      align-items: center;
-      gap: 30px;
-      max-width: 85%;
 
-      .hero__heading-image {
-        grid-column: 1 / span 2;
-        width: 80%;
-      }
-
-      .hero__grid__location,
-      .hero__grid__date {
-        grid-column: 1;
-        grid-row: auto;
-        width: 100%;
-      }
-
-      .hero__grid__subheading {
-        font-size: 18px;
-      }
-    }
-
-    .hero__images-container {
-      max-width: 300px;
-      margin-top: 10vh;
-    }
-
-    button {
-      font-size: 14px;
-      padding: 8px 16px;
-    }
-  }
-
-  @media only screen and (max-width: ${styleVars.xsUp}) {
-    padding-top: 10px;
-    .hero__wrapper {
-      padding-top: 100px;
-      gap: 10px;
-    }
-
-    .hero__grid {
-      max-width: 90%;
-      margin: 10px;
-
-      .hero__grid__subheading {
-        font-size: 16px;
-      }
-    }
-
-    .hero__images-container {
-      max-width: 250px;
-    }
-
-    button {
-      font-size: 12px;
-      padding: 6px 12px;
-    }
-  }
 `
 
 export default HeroStyles
