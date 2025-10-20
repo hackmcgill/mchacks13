@@ -64,10 +64,10 @@ const Hero = () => (
       <Button disabled={false} onClick={apply}>
         Click to apply!
       </Button>
-      <div className="hero__grid__signup">
-        {/* <SignUpForm className="hero__signup" /> */}
-        {/* <Button onClick={interestForm}>Interest Form</Button> */}
-      </div>
+      {/* <div className="hero__grid__signup">
+         <SignUpForm className="hero__signup" /> 
+         <Button onClick={interestForm}>Interest Form</Button> 
+      </div> */}
       {/* <Button onClick={live}>Live Site →</Button> */}
       <img 
         src={Portal} 

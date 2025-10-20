@@ -37,6 +37,17 @@ export const Button = styled.button`
     margin-right: 0;
     align-items: left;
   }
+
+  @media screen and (max-width: ${styleVars.xsUp}) {
+    font-size: 16px;
+    margin: 0px;
+    padding: 5px 16px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.65px;
+  }
 `
 
 export default Button
