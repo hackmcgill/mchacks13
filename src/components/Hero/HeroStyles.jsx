@@ -158,46 +158,6 @@ export const HeroStyles = styled.section`
     justify-content: center;
     align-items: center;
     gap: 30px;
-
-    .hero__clouds {
-      display: flex;
-      justify-content: space-around;
-      gap: 40vw;
-      width: 100%;
-      margin-bottom: -50px;
-
-      .hero__cloud1,
-      .hero__cloud4 {
-        width: 6vw;
-      }
-    }
-
-    .grid__clouds {
-      display: flex;
-      justify-content: space-around;
-      width: 100%;
-      margin-top: -20px;
-
-      .hero__cloud2,
-      .hero__cloud3 {
-        width: 5vw;
-      }
-    }
-
-    .grid__icons {
-      display: flex;
-      gap: 100px;
-      justify-content: center;
-      align-items: center;
-
-      .hero__buttons {
-        width: 7vw;
-      }
-
-      .hero__joystick {
-        width: 4vw;
-      }
-    }
   }
 
   .hero__grid {
@@ -246,20 +206,6 @@ export const HeroStyles = styled.section`
       grid-row: 2;
     }
 
-    .hero__grid__signup {
-      position: relative;
-      grid-column: 2 / span 2;
-      grid-row: 3;
-    }
-
-    .hero__grid__text {
-      font-size: 16px;
-      font-weight: 400;
-      text-align: center;
-      margin: 0 8px 14px 8px;
-      font-family: "Brown", san-serif;
-    }
-
     .hero__grid__subheading {
       font-size: 35px;
       line-height: normal;
@@ -275,18 +221,6 @@ export const HeroStyles = styled.section`
     display: none; /* Leave in h1 for SEO */
   }
 
-  .hero__temp-heading {
-    font-family: "ArcadeClassic", san-serif;
-    font-size: 100px;
-    font-weight: 500;
-    color: ${styleVars.m12Maroon};
-    margin: 0;
-  }
-
-  .hero__grass {
-    width: 100vw;
-  }
-
   .hero__grass_image {
     width: 100%;
     margin-bottom: -10px;
@@ -298,40 +232,15 @@ export const HeroStyles = styled.section`
     .hero__wrapper {
       padding-top: 200px;
       gap: 20px;
-
-      .grid__clouds {
-        display: none;
-      }
-
-      .hero__clouds {
-        display: none;
-      }
     }
 
     .hero__grid {
       margin: 10px;
       max-width: 720px;
-
-      .hero__grid__text {
-        margin-bottom: 6px;
-      }
-
-      .hero__grid__signup {
-        .hero__martlet {
-          width: 8%;
-          top: 4%;
-          left: 4%;
-        }
-      }
     }
 
     .hero__images-container {
       max-width: 450px;
-
-      .hero__martlet {
-        width: 50px;
-        height: 50px;
-      }
     }
 
     .hero__grid__subheading {
@@ -348,14 +257,6 @@ export const HeroStyles = styled.section`
     .hero__wrapper {
       padding-top: 130px;
       gap: 15px;
-
-      .grid__clouds {
-        display: none;
-      }
-
-      .hero__clouds {
-        display: none;
-      }
     }
 
     .hero__grid {
@@ -370,20 +271,11 @@ export const HeroStyles = styled.section`
         width: 80%;
       }
 
-      .hero__grid__shapes {
-        display: none;
-      }
-
       .hero__grid__location,
       .hero__grid__date {
         grid-column: 1;
         grid-row: auto;
         width: 100%;
-      }
-
-      .hero__grid__signup {
-        grid-column: 1 / span 2;
-        grid-row: 3;
       }
 
       .hero__grid__subheading {
@@ -394,30 +286,11 @@ export const HeroStyles = styled.section`
     .hero__images-container {
       max-width: 300px;
       margin-top: 10vh;
-
-      .hero__martlet {
-        width: 15%;
-        top: 6%;
-        left: 8%;
-      }
-    }
-
-    .hero__grid__signup {
-      width: 100%;
-      padding: 0 10px;
     }
 
     button {
       font-size: 14px;
       padding: 8px 16px;
-    }
-
-    .grid__clouds {
-      display: none;
-    }
-
-    .hero__clouds {
-      display: none;
     }
   }
 
@@ -426,14 +299,6 @@ export const HeroStyles = styled.section`
     .hero__wrapper {
       padding-top: 100px;
       gap: 10px;
-
-      .grid__clouds {
-        display: none;
-      }
-
-      .hero__clouds {
-        display: none;
-      }
     }
 
     .hero__grid {
@@ -447,16 +312,6 @@ export const HeroStyles = styled.section`
 
     .hero__images-container {
       max-width: 250px;
-
-      .hero__martlet {
-        width: 13%;
-        top: 10%;
-        left: 5%;
-      }
-    }
-
-    .hero__grid__signup {
-      padding: 0 5px;
     }
 
     button {
