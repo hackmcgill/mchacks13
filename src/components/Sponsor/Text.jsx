@@ -31,7 +31,22 @@ export const Text = styled.div`
   }
 
   @media only screen and (max-width: ${styleVars.xsUp}) {
-    padding: 20px;
+    padding: 0px;
+
+    h2 {
+      font-size: 17px;
+      font-style: italic;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.85px;
+    }
+    p {
+      padding: 0px;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
   }
 `
 
