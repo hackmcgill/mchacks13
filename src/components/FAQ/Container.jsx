@@ -80,6 +80,12 @@ const Container = styled.section`
     height: 200px;
   }
 
+  @media only screen and (max-width: ${styleVars.xsUp}) {
+    margin-top: 20px;
+  }
+
+
+
   &.hidden {
     display: none !important;
   }
