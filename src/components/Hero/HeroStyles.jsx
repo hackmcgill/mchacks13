@@ -219,7 +219,11 @@ export const HeroStyles = styled.section`
      }
 
      .hero__leftCloud, .hero__rightCloud {
-        width: 136px;
+        width: 120px;
+     }
+
+     .hero__rightCloud {
+        right: 0px;
      }
 
      .hero__moon {
