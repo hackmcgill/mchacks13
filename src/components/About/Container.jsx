@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import * as styleVars from "../variable"
 
 export const Container = styled.section`
   position: relative;
@@ -15,6 +16,16 @@ export const Container = styled.section`
 
   @media only screen and (max-width: 1158px) {
     margin-top: 50px;
+  }
+
+  @media screen and (max-width: ${styleVars.xsUp}) {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    margin-top: 20px;
+    width: 80%;
+    right: 0px;
   }
 
 `
