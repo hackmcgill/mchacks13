@@ -28,4 +28,9 @@ export const Content = styled.div`
   @media only screen and (max-width: ${styleVars.smUp}) {
     padding: 0;
   }
+
+  @media only screen and (max-width: ${styleVars.xsUp}) {
+    padding: 10px;
+    gap: 30px;
+  }
 `
