@@ -4,8 +4,8 @@ import * as styleVars from "../variable"
 
 const Container = styled.section`
   position: relative;
-  margin-top: 400px;
-  right: 200px;
+  margin-top: 360px;
+  padding-right: 400px;
   height: 1600px;
 
   @media only screen and (max-width: 1000px) {
