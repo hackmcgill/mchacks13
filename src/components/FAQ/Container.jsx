@@ -69,6 +69,7 @@ const Container = styled.section`
       .question {
         color: ${styleVars.m12DarkestTeal};
       }
+    }
   }
 
   @media only screen and (max-width: 1000px) {
@@ -80,11 +81,12 @@ const Container = styled.section`
     height: 200px;
   }
 
-  @media only screen and (max-width: ${styleVars.xsUp}) {
-    margin-top: 20px;
+  @media screen and (max-width: ${styleVars.xsUp}) {
+    margin-top: 20px !important;
+    right: 0px !important;
+    height: auto;
+
   }
-
-
 
   &.hidden {
     display: none !important;
