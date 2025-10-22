@@ -4,8 +4,8 @@ import * as styleVars from "../variable"
 
 const Container = styled.section`
   position: relative;
-  margin-top: 600px;
-  left: 250px;
+  margin-top: 360px;
+  padding-left: 380px;
 
   .QuestionBox {
     padding: 14px 24px;
@@ -74,8 +74,8 @@ const Container = styled.section`
 
 
   @media screen and (max-width: ${styleVars.xsUp}) {
-    margin-top: 40px !important;
-    left: 0px !important;
+    margin-top: 20px !important;
+    padding-left: 0 !important;
 
     .QuestionBox {
       margin-bottom: 10px;
