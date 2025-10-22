@@ -14,32 +14,32 @@ const FAQ = ({ scrollRef }) => (
         <div className="questions">
           <QuestionGroup>
             <Question question="What is a hackathon?">
-              A hackathon is a social coding event where programmers, designers,
-              and developers collaborate to solve a problem.
+              A hackathon is a 24-hour adrenaline rush where creativity meets code! It’s a social coding 
+              event where programmers, designers, and developers team up to solve real-world challenges.
+              At McHacks, you’ll gain valuable insights from industry professionals, receive guidance 
+              from experienced mentors, and network with sponsors and fellow innovators – all while 
+              enjoying free food, great vibes, and maybe even walking away with an awesome prize (or an internship 👀).
+
             </Question>
 
             <Question question="When is McHacks?">
-              This year, we'll be running McHacks for 24 hours! It will be on
-              the weekend of January 25-26.
+              McHacks takes place on January 17th–18th at the downtown McGill University campus.
             </Question>
 
             <Question question="How can I participate in McHacks?">
-              This year McHacks is taking place in person at the University
-              Centre Building on the McGill University campus. We’ll provide
-              more details on the specifics as we get closer to McHacks, but
-              right now all you need to do is apply.
+              Simply apply through our website! Once accepted, bring your laptop 
+              and your ideas – we’ll provide the rest (snacks, mentors, and unlimited coffee refills included).
             </Question>
 
             <Question question="Who can participate? ">
-              Students from all backgrounds and skill levels are welcome at
-              McHacks.
+              Anyone and everyone! Whether you’re a designer or a developer, 
+              from Montreal or New York, in university or CEGEP – McHacks welcomes hackers of all kinds.
             </Question>
 
             <Question question="What skills do I need to participate?">
-              We welcome students with a variety of skill sets! While experience
-              coding and programming is a plus, we offer beginner friendly
-              workshops and mentorship to get you started. Teams will also need
-              people with strong presentation skills and brilliant ideas.
+              Whatever you know right now! McHacks is all about learning, experimenting, 
+              and creating. Whether you’re writing your first “Hello, World!”, designing your 
+              first prototype, or refining your machine learning model, we’ll have mentors and workshops to help you grow.
             </Question>
 
             <Question question="Do I need a team?">

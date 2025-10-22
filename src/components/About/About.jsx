@@ -8,17 +8,18 @@ const About = ({ scrollRef }) => (
   <Container ref={scrollRef} style={{}}>
     <Content>
       <Text>
-        <h1>Dream, develop, deploy!</h1>
+        <h1>Code That Casts Spells</h1>
         <p>
-          For 24 hours, over 500 of the boldest young minds come 
-          together at McGill University for a jam-packed weekend 
-          of beginner-to-pro workshops, networking, and epic hacking.
+          For 24 enchanting hours, McGill transforms into 
+          a realm of imagination and innovation. Over 500 
+          curious minds will gather under one roof, casting 
+          spells of creativity through code, design, and daring ideas. 
         </p>
         <p>
-          Whether you're writing your first line of code, playing around
-          with APIs, or building the next blockchain, McHacks is the place 
-          for you. We'll see you this January at the 12th annual rendition 
-          of Canada's original collegiate hackathon!
+          Whether you're summoning your first "Hello, World!", brewing APIs in your cauldron, 
+          or crafting the next big tech potion, McHacks is your very own playground.
+          Join us for the 13th edition of Canada’s most magical hackathon – and bring 
+          your ideas to life, one line of code at a time.
         </p>
       </Text>
     </Content>

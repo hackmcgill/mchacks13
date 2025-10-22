@@ -12,20 +12,21 @@ const Involvement = ({ scrollRef }) => (
         <div className="questions">
           <QuestionGroup>
             <Question question="Become a Judge">
-              A hackathon is a social coding event where programmers, designers,
-              and developers collaborate to solve a problem.
+              Help us celebrate innovation! Judges review projects, meet brilliant student teams, and decide which hacks shine the brightest. 
+              You’ll get a front-row seat to creativity in action, and help recognize the ideas that push boundaries! 👉
+              <a href="https://forms.gle/axyN3GZnfW2Cmtmz8"> Apply Now</a>
             </Question>
 
             <Question question="Become a Mentor">
-              This year, we'll be running McHacks for 24 hours! It will be on
-              the weekend of January 25-26.
+              Every great hacker needs a guide. Mentors guide hackers through technical challenges, brainstorm solutions, and inspire teams
+              to come up with their next Big Idea. Whether you’re a developer, designer, or entrepreneur, your insight makes a huge impact. 👉
+              <a href="https://forms.gle/axyN3GZnfW2Cmtmz8"> Apply Now</a>
             </Question>
 
             <Question question="Volunteer with us">
-              This year McHacks is taking place in person at the University
-              Centre Building on the McGill University campus. We’ll provide
-              more details on the specifics as we get closer to McHacks, but
-              right now all you need to do is apply.
+              Help keep the magic alive behind the scenes! Volunteers support logistics, registration, workshops, 
+              and more – keeping the event running smoothly. It’s a fun, fast-paced weekend full of collaboration, energy, and community spirit. 👉
+              <a href="https://forms.gle/fu6xyJaRdcTi9Gss6"> Apply Now</a>
             </Question>
           </QuestionGroup>
         </div>
