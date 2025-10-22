@@ -8,7 +8,6 @@ export const Container = styled.section`
   align-items: center;
   justify-content: center;
   margin-top: 200px;
-  right: 300px;
 
   @media only screen and (max-width: 1250px) {
     margin-top: 100px;
@@ -25,7 +24,6 @@ export const Container = styled.section`
     justify-self: center;
     margin-top: 20px;
     width: 80%;
-    right: 0px;
   }
 
 `
