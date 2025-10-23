@@ -2,7 +2,7 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 export const Text = styled.div`
-  max-width: 552px;
+  max-width: 578px;
   font-size: 16px;
   height: min-content;
 

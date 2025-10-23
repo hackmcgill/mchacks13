@@ -6,7 +6,7 @@ const Container = styled.section`
   position: relative;
   margin-top: 360px;
   padding-right: 400px;
-  height: 1600px;
+  height: 1200px;
 
   .QuestionBox {
     padding: 14px 24px;
@@ -37,7 +37,7 @@ const Container = styled.section`
       .expandButton > img {
         opacity: 90%;
         position: relative;
-        top: 0px;
+        top: 0;
         transition: opacity 0.3s ease, transform 0.3s ease;
       }
     }
@@ -75,7 +75,7 @@ const Container = styled.section`
   @media screen and (max-width: ${styleVars.xsUp}) {
     margin-top: 20px;
     padding-right: 0;
-    height: 600px;
+    height: 650px;
 
     .QuestionBox {
       padding: 6px 24px;
