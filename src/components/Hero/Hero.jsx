@@ -57,7 +57,7 @@ const Hero = () => (
           <h2 className="hero__grid__subheading">Jan 17-18, 2026</h2>
         </div>
         <div className="hero__grid__date">
-          <h2 className="hero__grid__subheading">McGill University</h2>
+          <h2 className="hero__grid__subheading">In-Person | McGill University</h2>
         </div>
       </div>
       <div className="grid__clouds"></div>

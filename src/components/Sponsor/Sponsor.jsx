@@ -27,12 +27,11 @@ const Sponsor = ({ scrollRef }) => (
           Hours.
         </p>
         <p>
-          View our sponsorship package at https://lnkd.in/gKyD7Jqj. Our
+          View our sponsorship package at <a href="https://lnkd.in/gKyD7Jqj">https://lnkd.in/gKyD7Jqj</a>. Our
           sponsorship packages along with our add-ons are flexible and designed
           to meet your goals-whether it’s hiring, outreach, or community impact. <br/>
-          Contact sponsor@mchacks.ca for more details.
+          Contact <a href="mailto:sponsor@mchacks.ca">sponsor@mchacks.ca</a> for more details.
         </p>
-         {/*<Button onClick={mailTo}>Become a Sponsor</Button>*/}
       </Text>
     </Content>
   </Container>

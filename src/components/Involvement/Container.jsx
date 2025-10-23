@@ -24,13 +24,16 @@ const Container = styled.section`
 
     .questionRow {
       display: flex;
+      position: relative;
+      justify-content: space-between;
 
       .question {
         color: ${styleVars.hackBlack80};
       }
 
-      .spacer {
-        flex: 1;
+      .expandButton {
+        position: absolute;
+        right: 0;
       }
 
       .expandButton > img {
@@ -75,9 +78,14 @@ const Container = styled.section`
   @media screen and (max-width: ${styleVars.xsUp}) {
     margin-top: 20px;
     padding-left: 0;
+    
     .QuestionBox {
       padding: 6px 24px;
       margin-bottom: 10px;
+
+      .questionRow {
+        justify-content: center;
+      }
     }
   }
 `
