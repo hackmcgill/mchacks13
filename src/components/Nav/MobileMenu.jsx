@@ -9,7 +9,7 @@ export const MobileMenu = {
     right: "30px",
   },
   bmBurgerBars: {
-    background: styleVars.hackWhite,
+    background: styleVars.m13Red,
     borderRadius: "30px",
     height: "3.5px",
   },
@@ -24,7 +24,7 @@ export const MobileMenu = {
     outline: "none",
   },
   bmCross: {
-    background: styleVars.hackBlack,
+    background: styleVars.m13Red,
     height: "5px",
     width: "30px",
     top: "5px",
