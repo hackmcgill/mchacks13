@@ -36,7 +36,7 @@ const Container = styled.section`
       .expandButton > img {
         opacity: 90%;
         position: relative;
-        top: 0px;
+        top: 0;
         transition: opacity 0.3s ease, transform 0.3s ease;
       }
     }
@@ -65,7 +65,6 @@ const Container = styled.section`
         color: ${styleVars.m12DarkestTeal};
       }
     }
-
   }
 
   &.hidden {
@@ -74,11 +73,12 @@ const Container = styled.section`
 
 
   @media screen and (max-width: ${styleVars.xsUp}) {
-    margin-top: 20px !important;
-    padding-left: 0 !important;
-
+    margin-top: 20px;
+    padding-left: 0;
     .QuestionBox {
+      padding: 6px 24px;
       margin-bottom: 10px;
+    }
   }
 `
 
