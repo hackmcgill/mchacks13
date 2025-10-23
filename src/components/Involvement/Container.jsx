@@ -64,21 +64,10 @@ const Container = styled.section`
       .question {
         color: ${styleVars.m12DarkestTeal};
       }
-    }
-
   }
 
   &.hidden {
     display: none !important;
-  }
-
-
-  @media screen and (max-width: ${styleVars.xsUp}) {
-    margin-top: 40px !important;
-    left: 0px !important;
-
-    .QuestionBox {
-      margin-bottom: 10px;
   }
 `
 

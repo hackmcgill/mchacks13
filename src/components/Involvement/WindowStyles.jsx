@@ -47,24 +47,5 @@ export const WindowStyles = styled.div`
       height: auto;
     }
   }
-
-  @media screen and (max-width: ${styleVars.xsUp}) {
-    margin: 20px 0px;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-self: center;
-    width: 80%;
-    padding: 20px;
-
-
-    h2 {
-      font-size: 17px;
-      font-style: italic;
-      font-weight: 700;
-      line-height: normal;
-      letter-spacing: -0.85px;
-    }
-  }
 `
 export default WindowStyles
