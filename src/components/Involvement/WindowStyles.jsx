@@ -35,7 +35,7 @@ export const WindowStyles = styled.div`
   }
   
   @media screen and (max-width: ${styleVars.xsUp}) {
-    margin: 20px 0px;
+    margin: 20px 0;
     display: flex;
     flex-direction: column;
     align-self: center;
