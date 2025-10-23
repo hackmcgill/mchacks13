@@ -33,21 +33,7 @@ export const WindowStyles = styled.div`
     font-size: 16px;
     color: ${styleVars.m12White};
   }
-
-  @media only screen and (max-width: 1000px) {
-    
-    .QuestionBox {
-      width: 100%;
-      padding: 16px 24px;
-      //text-align: left;
-      font-size: 1.2em;
-      cursor: pointer;
-      margin: 20px 0;
-      box-sizing: border-box;
-      height: auto;
-    }
-  }
-
+  
   @media screen and (max-width: ${styleVars.xsUp}) {
     margin: 20px 0px;
     display: flex;
@@ -56,8 +42,7 @@ export const WindowStyles = styled.div`
     justify-self: center;
     width: 80%;
     padding: 20px;
-
-
+    
     h2 {
       font-size: 17px;
       font-style: italic;

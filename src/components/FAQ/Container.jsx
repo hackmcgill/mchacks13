@@ -8,10 +8,6 @@ const Container = styled.section`
   padding-right: 400px;
   height: 1600px;
 
-  @media only screen and (max-width: 1000px) {
-    height: 2100px;
-  }
-
   .QuestionBox {
     padding: 14px 24px;
     border-radius: 24px;
@@ -69,25 +65,22 @@ const Container = styled.section`
       .question {
         color: ${styleVars.m12DarkestTeal};
       }
+    }
   }
-
-  @media only screen and (max-width: 1000px) {
-    height: 180px;
-    overflow: hidden;
-  }
-
-  @media only screen and (max-width: ${styleVars.smUp}) {
-    height: 200px;
-  }
-
-  @media only screen and (max-width: ${styleVars.xsUp}) {
-    margin-top: 20px;
-  }
-
-
 
   &.hidden {
     display: none !important;
+  }
+
+  @media screen and (max-width: ${styleVars.xsUp}) {
+    margin-top: 20px;
+    padding-right: 0;
+    height: 600px;
+
+    .QuestionBox {
+      padding: 6px 24px;
+      margin-bottom: 10px;
+    }
   }
 `
 
