@@ -27,14 +27,14 @@ export const Container = styled.section`
   }
 
   @media screen and (max-width: ${styleVars.xsUp}) {
-    padding: 0px;
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-self: center;
     margin-top: 20px;
     width: 80%;
-    right: 0px;
+    right: 0;
   }
 `
 
