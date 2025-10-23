@@ -27,7 +27,7 @@ const FAQ = ({ scrollRef }) => (
             </Question>
             <Question question="How can I participate in McHacks?">
               Simply apply through our website! Once accepted, bring your laptop
-              and your ideas – we’ll provide the rest (snacks, mentors, and
+              and your ideas – we’ll provide the rest (snacks, mentors, and{' '}
               <em>unlimited coffee refills</em> included).
             </Question>
             <Question question="Who can participate? ">
