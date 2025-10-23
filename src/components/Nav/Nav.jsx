@@ -12,6 +12,7 @@ import NavLink from "./NavLink"
 import Background from "./Background"
 
 import SocialMediaBar from "../SocialMedia/SocialMediaBar"
+import HomeLogoContainer from "./HomeLogoContainer"
 
 const Nav = ({
   scrollToAbout,
@@ -40,13 +41,11 @@ const Nav = ({
 
   const NavItems = (mobile) => (
     <>
-      {scrollToAbout ? (
-        <NavLink href="/">
-          <IconContainer>
-            <img src={HomeLogo} alt="McHacks Home Logo" />
-          </IconContainer>
-        </NavLink>
-      ) : null}
+      <NavLink href="/">
+        <IconContainer>
+          <img src={HomeLogo} alt="McHacks Home Logo" />
+        </IconContainer>
+      </NavLink>
 
       {scrollToAbout ? (
         <NavLink onClick={scrollToAbout} $mobile={mobile}>
@@ -104,10 +103,19 @@ const Nav = ({
           </div>
           
         </Links>
+
+        <HomeLogoContainer>
+          <NavLink href="/">
+            <IconContainer>
+              <img src={HomeLogo} alt="McHacks Home Logo" />
+            </IconContainer>
+          </NavLink>
+        </HomeLogoContainer>
+
       </div>
-      <Background $scrolled={scrolled}>
-        <div className={`background ${hiddenBackground ? "hidden" : ""}`}></div>
-      </Background>
+      {/*<Background $scrolled={scrolled}>*/}
+      {/*  <div className={`background ${hiddenBackground ? "hidden" : ""}`}></div>*/}
+      {/*</Background>*/}
       <Menu isOpen={true} styles={MobileMenu} $hasBorder={hasBorder}>
         {NavItems(true)}
       </Menu>
