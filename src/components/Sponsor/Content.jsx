@@ -10,7 +10,6 @@ export default styled.div`
   border-radius: 32px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   padding: 16px 36px;
-  max-width: 1440px;
   gap: 40px;
 
   @media only screen and (max-width: ${styleVars.mdUp}) {
