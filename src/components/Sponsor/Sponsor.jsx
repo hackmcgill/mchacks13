@@ -4,10 +4,6 @@ import Container from "./Container"
 import Content from "./Content"
 import Text from "./Text"
 
-const mailTo = () => {
-  window.location = "mailto:sponsorship@mchacks.ca?Subject=Hello!"
-}
-
 const Sponsor = ({ scrollRef }) => (
   <Container ref={scrollRef}>
     <Content>
