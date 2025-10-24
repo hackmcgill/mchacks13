@@ -17,10 +17,6 @@ import SocialLink from "./SocialLink"
 const pageLinks = [
   { href: "/code-of-conduct", text: "Code of Conduct" },
   { href: "/privacy", text: "Privacy Policy" },
-  { href: "/discord-guide", text: "Discord Guide" },
-  { href: "https://hackp.ac/coc", text: "MLH Code of Conduct", external: true },
-  // TODO uhhhh is this supposed to be todo for 2025???!!!!
-  // { href: "/press-kit", text: "Press Kit" },
 ]
 
 const socialLinks = [
