@@ -11,8 +11,8 @@ const Sponsor = ({ scrollRef }) => (
         <h2>Sponsoring McHacks</h2>
         <p>
           Imagine this: a room full of caffeine, creativity, and code. 500+
-          students chasing the next big idea – using your tools, your tech, your
-          spark.
+          students chasing the next big idea – using <em>your</em> tools,{" "}
+          <em>your</em> tech, <em>your</em> spark.
         </p>
         <p>That’s McHacks.</p>
         <p>
@@ -23,10 +23,13 @@ const Sponsor = ({ scrollRef }) => (
           Hours.
         </p>
         <p>
-          View our <a href="https://mchacks.ca/sponsor.pdf">Sponsorship Package</a>. Our
+          View our{" "}
+          <a href="https://mchacks.ca/sponsor.pdf">sponsorship package</a>. Our
           sponsorship packages along with our add-ons are flexible and designed
-          to meet your goals-whether it’s hiring, outreach, or community impact. <br/>
-          Contact <a href="mailto:sponsorship@mchacks.ca">sponsorship@mchacks.ca</a> for more details.
+          to meet your goals - whether it’s hiring, outreach, or community
+          impact. Contact{" "}
+          <a href="mailto:sponsorship@mchacks.ca">sponsorship@mchacks.ca</a> for
+          more details.
         </p>
       </Text>
     </Content>

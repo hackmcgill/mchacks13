@@ -5,7 +5,7 @@ import * as styleVars from "../variable"
 const Container = styled.section`
   position: relative;
   margin-top: 360px;
-  padding-left: 380px;
+  padding-left: 460px;
 
   .QuestionBox {
     padding: 14px 24px;

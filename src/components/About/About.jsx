@@ -10,16 +10,19 @@ const About = ({ scrollRef }) => (
       <Text>
         <h1>Code That Casts Spells</h1>
         <p>
-          For 24 enchanting hours, McGill transforms into a realm of imagination
-          and innovation. Over 500 curious minds will gather under one roof,
-          <em> casting spells of creativity</em> through code, design, and daring
-          ideas. Whether you're summoning your first "Hello, World!", brewing
-          APIs in your cauldron, or crafting the next big tech potion, McHacks
-          is your very own playground.
-        </p>
-        <p>
-          Join us for the <strong>13<sup>th</sup> edition</strong> of Canada’s most magical
-          hackathon – and bring your ideas to life, one line of code at a time.
+          University transforms into a realm of imagination and innovation. Over
+          500 curious minds will gather under one roof, casting spells of
+          creativity through code, design, and daring ideas. Whether you're
+          summoning your first "Hello, World!", brewing APIs in your cauldron,
+          or crafting the next big tech potion, McHacks is your very own
+          playground. Join us for the 13th edition of Canada’s most magical
+          hackathon and bring your ideas to life, one line of code at a time.
+          Join us for the{" "}
+          <strong>
+            13<sup>th</sup> edition
+          </strong>{" "}
+          of Canada’s most magical hackathon and bring your ideas to life, one
+          line of code at a time.
         </p>
       </Text>
     </Content>
