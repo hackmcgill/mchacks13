@@ -18,10 +18,6 @@ const Container = styled.section`
     box-sizing: border-box;
     background-color: white;
 
-    a {
-      color: ${styleVars.m12DarkestGrey};
-    }
-
     .questionRow {
       display: flex;
       position: relative;
