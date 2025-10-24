@@ -22,7 +22,7 @@ const interestForm = () => {
 // }
 
 const apply = () => {
-  console.log("apply_clicked")
+  window.location = "https://app.mchacks.ca/"
 }
 
 const Hero = () => (

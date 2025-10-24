@@ -82,7 +82,7 @@ const Nav = ({
       {/*<NavLink href="https://forms.gle/2CHq5PZZLxuirVCT6" $mobile={mobile}>
         Volunteer
       </NavLink> */}
-      <NavLink href="https://forms.gle/Xp6Li1dXW4uNEQxp8" $mobile={mobile}>
+      <NavLink href="https://app.mchacks.ca/" $mobile={mobile}>
         APPLY
       </NavLink>
       
