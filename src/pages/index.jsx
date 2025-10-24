@@ -24,6 +24,7 @@ const IndexPage = () => {
   const aboutRef = useRef(null)
   const sponsorRef = useRef(null)
   const faqRef = useRef(null)
+  const involvementRef = useRef(null)
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'auto' }, 0);
@@ -35,6 +36,7 @@ const IndexPage = () => {
       <Nav
         scrollToAbout={() => scrollTo(aboutRef)}
         scrollToSponsor={() => scrollTo(sponsorRef)}
+        scrollToInvolvement={() => scrollTo(involvementRef)}
         scrollToFaq={() => scrollTo(faqRef)}
         schedule={true}
         darkBackground={true}
@@ -43,11 +45,8 @@ const IndexPage = () => {
       <About scrollRef={aboutRef} />
       <EventInfo />
       <Sponsor scrollRef={sponsorRef} />
-      <Involvement />
+      <Involvement scrollRef={involvementRef}/>
       <FAQ scrollRef={faqRef} />
-      {/*<CarouselSpeaker />
-      <CarouselRecruiter />
-      <CarouselMentorAndJudges />*/}
       <Logos />
       <Footer />
     </div>

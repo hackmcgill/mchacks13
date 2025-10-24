@@ -19,21 +19,22 @@ const FAQ = ({ scrollRef }) => (
               you’ll gain valuable insights from industry professionals, receive
               guidance from experienced mentors, and network with sponsors and
               fellow innovators – all while enjoying free food, great vibes, and
-              maybe even walking away with an awesome prize (or an internship 👀).
+              maybe even walking away with an awesome prize (or an internship
+              👀).
             </Question>
-            <Question question="When and Where is McHacks?">
-              McHacks takes place on <strong>January 17th–18th</strong> at the downtown McGill
-              University campus.
+            <Question question="When and Where is McHacks 13?">
+              McHacks 13 will take place on <strong>January 17-18, 2026</strong>{" "}
+              in-person at McGill University’s downtown campus in Montreal, QC.
             </Question>
             <Question question="How can I participate in McHacks?">
               Simply apply through our website! Once accepted, bring your laptop
-              and your ideas – we’ll provide the rest (snacks, mentors, and{' '}
+              and your ideas. We’ll provide the rest (snacks, mentors, and{" "}
               <em>unlimited coffee refills</em> included).
             </Question>
-            <Question question="Who can participate? ">
-              Anyone and everyone! Whether you’re a designer or a developer,
-              from Montreal or New York, in university or CEGEP – McHacks
-              welcomes hackers of all kinds.
+            <Question question="Who can participate?">
+              Any high school, college/CEGEP and university students can join!
+              Whether you’re a beginner or a pro, designer or a developer, from
+              Montreal or New York, McHacks welcomes hackers of all kinds.
             </Question>
             <Question question="What skills do I need to participate?">
               Whatever you know right now! McHacks is all about learning,
