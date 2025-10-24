@@ -33,9 +33,9 @@ const IndexPage = () => {
     <div>
       <SEO />
       <Nav
-        scrollToAbout={() => scrollTo(aboutRef, -200)}
-        scrollToSponsor={() => scrollTo(sponsorRef, -150)}
-        scrollToFaq={() => scrollTo(faqRef, -350)}
+        scrollToAbout={() => scrollTo(aboutRef)}
+        scrollToSponsor={() => scrollTo(sponsorRef)}
+        scrollToFaq={() => scrollTo(faqRef)}
         schedule={true}
         darkBackground={true}
       />
