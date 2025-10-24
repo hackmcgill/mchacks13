@@ -25,7 +25,7 @@ const Involvement = ({ scrollRef }) => (
               designer, or entrepreneur, your insight makes a huge impact. Apply
               now at <a href="https://forms.gle/axyN3GZnfW2Cmtmz8">https://forms.gle/axyN3GZnfW2Cmtmz8</a>
             </Question>
-            <Question question="Volunteer with us">
+            <Question question="Volunteer with Us">
               Help keep the magic alive behind the scenes! Volunteers support
               logistics, registration, workshops, and more – keeping the event
               running smoothly. It’s a fun, fast-paced weekend full of

@@ -7,6 +7,7 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left: 280px;
 
   @media (max-width: 1500px) {
     margin-top: 300px;
@@ -34,7 +35,6 @@ export const Container = styled.section`
     justify-self: center;
     margin-top: 20px;
     width: 80%;
-    right: 0;
   }
 `
 

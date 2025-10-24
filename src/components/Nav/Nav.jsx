@@ -17,6 +17,7 @@ import HomeLogoContainer from "./HomeLogoContainer"
 const Nav = ({
   scrollToAbout,
   scrollToSponsor,
+  scrollToInvolvement,
   scrollToFaq,
   schedule,
   docPage = false,
@@ -56,6 +57,12 @@ const Nav = ({
       {scrollToSponsor ? (
         <NavLink onClick={scrollToSponsor} $mobile={mobile}>
           SPONSOR
+        </NavLink>
+      ) : null}
+
+      {scrollToInvolvement ? (
+        <NavLink onClick={scrollToInvolvement} $mobile={mobile}>
+          GET INVOLVED
         </NavLink>
       ) : null}
 
@@ -101,7 +108,6 @@ const Nav = ({
             <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2026/mlh-trust-badge-2026-white.svg" alt="Major League Hacking 2026 Hackathon Season" style={{ width: "100%" }} />
             </a>
           </div>
-          
         </Links>
 
         <HomeLogoContainer>
