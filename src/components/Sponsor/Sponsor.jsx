@@ -25,7 +25,7 @@ const Sponsor = ({ scrollRef }) => (
         <p>
           View our{" "}
           <a href="https://mchacks.ca/sponsor.pdf">sponsorship package</a>. Our
-          sponsorship packages along with our add-ons are flexible and designed
+          sponsorship tiers along with our add-ons are flexible and designed
           to meet your goals - whether it’s hiring, outreach, or community
           impact. Contact{" "}
           <a href="mailto:sponsorship@mchacks.ca">sponsorship@mchacks.ca</a> for
