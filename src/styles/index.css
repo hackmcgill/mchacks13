@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+
 @font-face {
   font-family: "Brown";
   src: url("../assets/fonts/Brown-Regular.ttf");
@@ -33,14 +34,6 @@ body {
   background: url(../assets/images/designs/mchacks13-bg.svg);
   background-repeat: no-repeat;
   background-size: 100%;
-}
-
-@media only screen and (max-width: 435px) {
-  body {
-    background: url(../assets/images/designs/mchacks13-bg-mobile.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
 }
 
 p {
