@@ -34,6 +34,7 @@ body {
   background: url(../assets/images/designs/mchacks13-bg-mobile.svg);
   background-repeat: no-repeat;
   background-size: 100%;
+  cursor: url(../../static/mchacks13-cursor.png), auto;
 }
 
 p {
