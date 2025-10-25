@@ -12,22 +12,12 @@ export const Container = styled.section`
   @media (max-width: 1500px) {
     margin-top: 300px;
 
-  @media (max-width: 1200px) {
+  @media (max-width: ${styleVars.lgUp}) {
     margin-top: 200px;
-    padding-right: 150px;
+    padding-left: 140px;
   }
 
-  @media (max-width: ${styleVars.smUp}) {
-    margin-top: 150px;
-    padding-right: 100px;
-  }
-
-  @media (max-width: 480px) {
-    margin-top: 100px;
-    padding-right: 50px;
-  }
-
-  @media screen and (max-width: ${styleVars.xsUp}) {
+  @media screen and (max-width: ${styleVars.smUp}) {
     padding: 0;
     display: flex;
     flex-direction: column;
