@@ -15,9 +15,7 @@ const About = ({ scrollRef }) => (
           creativity through code, design, and daring ideas. Whether you're
           summoning your first "Hello, World!", brewing APIs in your cauldron,
           or crafting the next big tech potion, McHacks is your very own
-          playground. Join us for the 13th edition of Canada’s most magical
-          hackathon and bring your ideas to life, one line of code at a time.
-          Join us for the{" "}
+          playground. Join us for the{" "}
           <strong>
             13<sup>th</sup> edition
           </strong>{" "}
