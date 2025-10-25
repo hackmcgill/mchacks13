@@ -31,7 +31,7 @@ export const Button = styled.button`
   }
 
 
-  @media screen and (max-width: ${styleVars.xsUp}) {
+  @media only screen and (max-width: ${styleVars.xsUp}) {
     margin: 16px auto 8px;
     padding: 5px 16px;
     font-size: 13px;

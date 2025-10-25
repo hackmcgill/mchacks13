@@ -71,7 +71,7 @@ const Container = styled.section`
   }
 
 
-  @media screen and (max-width: ${styleVars.xsUp}) {
+  @media only screen and (max-width: ${styleVars.xsUp}) {
     margin-top: 20px;
     padding-left: 0;
     

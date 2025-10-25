@@ -211,7 +211,7 @@ export const HeroStyles = styled.section`
     margin-bottom: -10px;
   }
 
-  @media screen and (max-width: ${styleVars.xsUp}) {
+  @media only screen and (max-width: ${styleVars.xsUp}) {
      .hero__wrapper {
         margin-top: 60px !important;
        padding-top: 10px;

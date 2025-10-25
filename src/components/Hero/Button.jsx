@@ -38,7 +38,7 @@ export const Button = styled.button`
     align-items: left;
   }
 
-  @media screen and (max-width: ${styleVars.xsUp}) {
+  @media only screen and (max-width: ${styleVars.xsUp}) {
     font-size: 16px;
     margin: 0px;
     padding: 5px 16px;

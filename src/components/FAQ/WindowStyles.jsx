@@ -33,7 +33,7 @@ export const WindowStyles = styled.div`
     color: ${styleVars.m12White};
   }
 
-  @media screen and (max-width: ${styleVars.xsUp}) {
+  @media only screen and (max-width: ${styleVars.xsUp}) {
     margin: 20px 0px;
     display: flex;
     flex-direction: column;
