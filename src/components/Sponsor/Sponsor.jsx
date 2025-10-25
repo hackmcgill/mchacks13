@@ -4,8 +4,11 @@ import Container from "./Container"
 import Content from "./Content"
 import Text from "./Text"
 
+import campfire from "../../assets/images/designs/mchacks13-campfire.svg"
+
 const Sponsor = ({ scrollRef }) => (
   <Container ref={scrollRef}>
+    <img className="campfire-image" src={campfire} alt="campfire image" />
     <Content>
       <Text>
         <h2>Sponsoring McHacks</h2>
