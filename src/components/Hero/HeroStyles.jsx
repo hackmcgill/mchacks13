@@ -211,11 +211,11 @@ export const HeroStyles = styled.section`
     margin-bottom: -10px;
   }
 
-  @media screen and (max-width: ${styleVars.xsUp}) {
+  @media screen and (max-width: ${styleVars.smUp}) {
      .hero__wrapper {
-        margin-top: 60px !important;
+       margin-top: 60px !important;
        padding-top: 10px;
-        gap: 10px;
+       gap: 10px;
      }
 
      .hero__leftCloud, .hero__rightCloud {
@@ -263,14 +263,10 @@ export const HeroStyles = styled.section`
       margin-bottom: 20px;
     }
 
-
     .hero__grid__subheading {
       font-size: 13px !important;
     }
   }
-}
-
-
 `
 
 export default HeroStyles

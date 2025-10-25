@@ -33,7 +33,11 @@ export const WindowStyles = styled.div`
     color: ${styleVars.m12White};
   }
 
-  @media screen and (max-width: ${styleVars.xsUp}) {
+  @media screen and (max-width: ${styleVars.lgUp}) {
+    width: 70%;
+  }
+
+  @media screen and (max-width: ${styleVars.smUp}) {
     margin: 20px 0px;
     display: flex;
     flex-direction: column;
@@ -41,7 +45,6 @@ export const WindowStyles = styled.div`
     justify-self: center;
     width: 80%;
     padding: 20px;
-
 
     h2 {
       font-size: 17px;

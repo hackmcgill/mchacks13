@@ -17,7 +17,7 @@ export const Container = styled.section`
     margin-top: 50px;
   }
 
-  @media screen and (max-width: ${styleVars.xsUp}) {
+  @media screen and (max-width: ${styleVars.smUp}) {
     display: flex;
     flex-direction: column;
     align-self: center;
