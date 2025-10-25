@@ -31,7 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1 0 auto;
-  background: url(../assets/images/designs/mchacks13-bg.svg);
+  background: url(../assets/images/designs/mchacks13-bg-mobile.svg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
