@@ -11,7 +11,7 @@ import star1 from "../../assets/images/designs/mchacks13-star1.svg"
 import star2 from "../../assets/images/designs/mchacks13-star2.svg"
 import star3 from "../../assets/images/designs/mchacks13-star3.svg"
 import star4 from "../../assets/images/designs/mchacks13-star4.svg"
-import Portal from "../../assets/images/designs/hero_portal.svg"
+import Portal from "../../assets/gifs/mchacks13-portal.gif"
 
 const interestForm = () => {
   window.location = "https://forms.gle/Xp6Li1dXW4uNEQxp8"
