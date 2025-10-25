@@ -70,8 +70,12 @@ const Container = styled.section`
     display: none !important;
   }
 
+  @media screen and (max-width: ${styleVars.lgUp}) {
+    margin-top: 120px;
+    padding-left: 0;
+  }
 
-  @media screen and (max-width: ${styleVars.xsUp}) {
+  @media screen and (max-width: ${styleVars.smUp}) {
     margin-top: 20px;
     padding-left: 0;
     
