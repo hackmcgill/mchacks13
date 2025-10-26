@@ -22,7 +22,7 @@ const FAQ = ({ scrollRef }) => (
               maybe even walking away with an awesome prize (or an internship
               👀).
             </Question>
-            <Question question="When and Where is McHacks 13?">
+            <Question question="When and where is McHacks?">
               McHacks 13 will take place on <strong>January 17-18, 2026</strong>{" "}
               in-person at McGill University’s downtown campus in Montreal, QC.
             </Question>
@@ -53,7 +53,7 @@ const FAQ = ({ scrollRef }) => (
             <Question question="How big can my team be?">
               Teams can be up to four people.
             </Question>
-            <Question question="How are projects judged?">
+            {/* <Question question="How are projects judged?">
               See our judging criteria{" "}
               <a
                 href="https://docs.google.com/document/d/1N4i41ATAZFmWyADjulUxcGhgkOhRokwbFWWRwMFbB24/edit?usp=sharing"
@@ -63,7 +63,7 @@ const FAQ = ({ scrollRef }) => (
                 here
               </a>{" "}
               for more information.
-            </Question>
+            </Question> */}
             <Question question="I have more questions!">
               We have answers! Feel free to send us a DM on Facebook, Instagram,
               or Twitter, or email us at{" "}

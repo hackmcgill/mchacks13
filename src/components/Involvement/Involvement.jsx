@@ -4,6 +4,7 @@ import QuestionGroup from "./QuestionGroup"
 import Question from "./Question"
 import WindowStyles from "./WindowStyles"
 import Button from "./Button"
+import mushroom from "../../assets/images/designs/mchacks13-mushroom.png"
 
 const applyMentorJudge = () => {
   window.location = "https://forms.gle/axyN3GZnfW2Cmtmz8"
@@ -15,6 +16,7 @@ const applyVolunteer = () => {
 
 const Involvement = ({ scrollRef }) => (
   <Container ref={scrollRef}>
+    <img className="mchacks13-mushroom" src={mushroom} alt="Mushroom" />
     <WindowStyles>
       <div className="content">
         <h2>Other ways to get involved</h2>
