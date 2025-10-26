@@ -66,6 +66,27 @@ const Container = styled.section`
     }
   }
 
+  .mchacks13-mushroom {
+      position: absolute;
+      top: -200px;
+      right: 450px;
+      fill: white;
+      filter: drop-shadow(0 0 6px rgba(255,255,255,0.8));
+  }
+
+
+  @media screen and (max-width: 1800px) {
+    .mchacks13-mushroom {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 2240px) {
+    .mchacks13-mushroom {
+      display: none;
+    }
+
+  }
   &.hidden {
     display: none !important;
   }
