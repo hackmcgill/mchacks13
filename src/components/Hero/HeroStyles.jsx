@@ -32,8 +32,40 @@ export const HeroStyles = styled.section`
   .hero__apply {
     position: absolute;
 
-    @media (max-width: ${styleVars.smUp}) {
+    @media (min-width: 2000px) {
+      transform: translateY(-8%);
+    }
+
+    @media (max-width: 1700px) {
+      width: 80%;
+      transform: translateY(20%);
+    }
+    
+    @media (max-width: 1500px) {
+      width: 80%;
+      transform: translateY(20%);
+    }
+
+    @media (max-width: ${styleVars.lgUp}) {
       width: 70%;
+      transform: translateY(-18%);
+    }
+    
+    @media (max-width: ${styleVars.mdUp}) {
+      width: 70%;
+      transform: translateY(-15%);
+    }
+
+    @media (max-width: 600px) {
+      transform: translateY(0);
+    }
+    
+    @media (max-width: 540px) {
+      transform: translateY(5%);
+    }
+
+    @media (max-width: 490px) {
+      transform: translateY(10%);
     }
     
     @media (max-width: ${styleVars.xsUp}) {
@@ -235,8 +267,8 @@ export const HeroStyles = styled.section`
     width: 100%;
     margin-bottom: -10px;
   }
-
-  @media screen and (max-width: ${styleVars.smUp}) {
+  
+  @media screen and (max-width: ${styleVars.lgUp}) {
      .hero__wrapper {
        margin-top: 60px !important;
        padding-top: 10px;

@@ -70,7 +70,7 @@ const Hero = () => (
       {/* <Button onClick={live}>Live Site →</Button> */}
       {/*Necessary for clicking to work*/}
       <div className="invisible-apply" onClick={apply} />
-      <img 
+      <img
         src={Portal}
         onClick={apply}
         className="hero__portal" 
