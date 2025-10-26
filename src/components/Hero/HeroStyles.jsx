@@ -7,7 +7,7 @@ export const HeroStyles = styled.section`
   
   .hero__portal {
     width: 20%;
-    margin: 200px 0px;
+    margin: 120px 0px;
 
     @media (max-width: 1800px) {
       width: 22%;
@@ -26,6 +26,31 @@ export const HeroStyles = styled.section`
 
     @media (max-width: 1400px) {
       margin: 10px 0px;
+    }
+  }
+  
+  .hero__apply {
+    position: absolute;
+
+    @media (max-width: ${styleVars.smUp}) {
+      width: 70%;
+    }
+    
+    @media (max-width: ${styleVars.xsUp}) {
+      transform: translateY(10%);
+    }
+  }
+  
+  .invisible-apply {
+    position: absolute;
+    transform: translateY(50%);
+    height: 420px;
+    width: 250px;
+
+    @media (max-width: ${styleVars.smUp}) {
+      transform: translateY(60%);
+      width: 50px;
+      height: 90px;
     }
   }
   
