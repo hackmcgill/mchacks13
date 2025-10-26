@@ -54,11 +54,12 @@ a {
 }
 
 a:hover {
+  cursor: url(../../static/mchacks13-hover-cursor.png), auto;
   color: #f56f65;
 }
 
 button {
-  cursor: pointer;
+  cursor: url(../../static/mchacks13-hover-cursor.png), auto;
   outline: none;
 }
 
