@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
+import HoverCursor from "../../../static/mchacks13-hover-cursor.png"
 
 export const Container = styled.nav`
   z-index: 200;
@@ -25,7 +26,7 @@ export const Container = styled.nav`
   .home-link {
     font-family: "ArcadeClassic", sans-serif;
     font-size: 24px;
-    cursor: pointer;
+    cursor: url(${HoverCursor}), auto;
     color: ${styleVars.m12Maroon};
     text-decoration: none;
     transition: color 0.3s ease;

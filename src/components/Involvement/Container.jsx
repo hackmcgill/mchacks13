@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
-
+import HoverCursor from "../../../static/mchacks13-hover-cursor.png"
 
 const Container = styled.section`
   position: relative;
@@ -12,7 +12,7 @@ const Container = styled.section`
     border-radius: 24px;
     text-align: left;
     font-size: 1em;
-    cursor: pointer;
+    cursor: url(${HoverCursor}), auto;
     transition: background 0.5s ease;
     margin-bottom: 29px;
     box-sizing: border-box;

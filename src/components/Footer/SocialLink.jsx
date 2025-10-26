@@ -1,5 +1,7 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
+import HoverCursor from "../../../static/mchacks13-hover-cursor.png"
+
 
 export const SocialLink = styled.a`
   ${props => props.$isHomePage ? `
@@ -15,7 +17,7 @@ export const SocialLink = styled.a`
       color: ${styleVars.m12Maroon};
     } 
   `}
-  cursor: pointer;
+  cursor: url(${HoverCursor}), auto;
   text-decoration: none;
   font-size: 16px;
 `;
