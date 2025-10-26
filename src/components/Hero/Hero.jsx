@@ -12,6 +12,7 @@ import star2 from "../../assets/images/designs/mchacks13-star2.svg"
 import star3 from "../../assets/images/designs/mchacks13-star3.svg"
 import star4 from "../../assets/images/designs/mchacks13-star4.svg"
 import Portal from "../../assets/gifs/mchacks13-portal.gif"
+import clickToApply from "../../assets/images/designs/click-apply.svg"
 
 const interestForm = () => {
   window.location = "https://forms.gle/Xp6Li1dXW4uNEQxp8"
@@ -58,16 +59,20 @@ const Hero = () => (
         </div>
       </div>
       <div className="grid__clouds"></div>
-      <Button disabled={false} onClick={apply}>
-        Click to apply!
-      </Button>
-      {/* <div className="hero__grid__signup">
-         <SignUpForm className="hero__signup" /> 
-         <Button onClick={interestForm}>Interest Form</Button> 
-      </div> */}
+      <img
+        src={clickToApply}
+        className="hero__apply"
+        alt="Click to apply"
+      />
+      {/*<Button disabled={false} onClick={apply}>*/}
+      {/*  Click to apply!*/}
+      {/*</Button>*/}
       {/* <Button onClick={live}>Live Site →</Button> */}
+      {/*Necessary for clicking to work*/}
+      <div className="invisible-apply" onClick={apply} />
       <img 
-        src={Portal} 
+        src={Portal}
+        onClick={apply}
         className="hero__portal" 
         alt="Portal" 
       />
