@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
 import Container from "../FAQ/Container"
+import HoverCursor from "../../../static/mchacks13-hover-cursor.png"
 
 const LiveContainer = styled(Container)`
   height: auto;
@@ -23,7 +24,7 @@ const LiveContainer = styled(Container)`
     padding: 12px 24px;
     text-align: left;
     font-size: 1.1em;
-    cursor: pointer;
+    cursor: url(${HoverCursor}), auto;
     box-sizing: border-box;
     margin: 20px auto 20px auto;
   }

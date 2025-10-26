@@ -1,12 +1,13 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
+import HoverCursor from "../../../static/mchacks13-hover-cursor.png"
 
 export const NavLink = styled.a`
   font-family: 'Afacad', sans-serif;
   font-size: 25px;
   font-weight: 500;
   display: flex;
-  cursor: pointer;
+  cursor: url(${HoverCursor}), auto;
   color: ${styleVars.m13Red};
   text-decoration: none;
   transition: color 0.3s ease;
@@ -24,7 +25,7 @@ export const NavLink = styled.a`
     font-size: 20px;
     font-weight: 500;
     display: flex;
-    cursor: pointer;
+    cursor: url(${HoverCursor}), auto;
     color: ${styleVars.m13Red};
     text-decoration: none;
     transition: color 0.3s ease;}

@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
+import HoverCursor from "../../../static/mchacks13-hover-cursor.png"
 
 
 export const PageLink = styled.a`
@@ -18,7 +19,7 @@ export const PageLink = styled.a`
   `}  
 
   font-weight: 500;
-  cursor: pointer;
+  cursor: url(${HoverCursor}), auto;
   text-decoration: none;
   letter-spacing: 1px;
   word-spacing: 3px;
