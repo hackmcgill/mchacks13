@@ -37,7 +37,7 @@ body {
   cursor: url(../../static/mchacks13-cursor.png), auto;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 435px) {
   body {
     background: url(../assets/images/designs/mchacks13-bg-mobile.svg);
     background-repeat: no-repeat;
