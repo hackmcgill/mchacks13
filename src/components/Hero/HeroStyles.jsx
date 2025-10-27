@@ -8,6 +8,7 @@ export const HeroStyles = styled.section`
   .hero__portal {
     width: 20%;
     margin: 120px 0px;
+    transform: translateY(7%);
 
     @media (max-width: 1800px) {
       width: 22%;
