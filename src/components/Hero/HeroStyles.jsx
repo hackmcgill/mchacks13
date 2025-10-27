@@ -36,24 +36,28 @@ export const HeroStyles = styled.section`
       transform: translateY(-8%);
     }
 
+    @media (max-width: 1950px) {
+      transform: translateY(-4%);
+    }
+
     @media (max-width: 1700px) {
       width: 80%;
-      transform: translateY(20%);
+      transform: translateY(4%);
     }
     
     @media (max-width: 1500px) {
       width: 80%;
-      transform: translateY(20%);
+      transform: translateY(18%);
     }
 
     @media (max-width: ${styleVars.lgUp}) {
       width: 70%;
-      transform: translateY(-18%);
+      transform: translateY(-19%);
     }
     
     @media (max-width: ${styleVars.mdUp}) {
       width: 70%;
-      transform: translateY(-15%);
+      transform: translateY(-17%);
     }
 
     @media (max-width: 600px) {
