@@ -10,7 +10,7 @@ const About = ({ scrollRef }) => (
       <Text>
         <h1>Code That Casts Spells</h1>
         <p>
-          University transforms into a realm of imagination and innovation. Over
+          For 24 enchanting hours, McGillUniversity transforms into a realm of imagination and innovation. Over
           500 curious minds will gather under one roof, casting spells of
           creativity through code, design, and daring ideas. Whether you're
           summoning your first "Hello, World!", brewing APIs in your cauldron,
