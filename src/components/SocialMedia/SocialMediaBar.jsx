@@ -7,6 +7,7 @@ import { ReactComponent as Facebook } from "../../assets/images/logos/mchacks13-
 import { ReactComponent as GitHub } from "../../assets/images/logos/mchacks13-github-logo.svg"
 import { ReactComponent as Instagram } from "../../assets/images/logos/mchacks13-ig-logo.svg"
 import { ReactComponent as Twitter } from "../../assets/images/logos/mchacks13-x-logo.svg"
+import { ReactComponent as LinkedIn } from "../../assets/images/logos/mchack13-linkedin.svg"
 
 const SocialMediaBar = () => (
   <Container>
@@ -15,6 +16,11 @@ const SocialMediaBar = () => (
         <img src={Discord} alt="Discord" />
       </a>
     </div> */}
+    <div className="SocialMediaBar__icon">
+      <a href="https://www.linkedin.com/company/mchacks/" target="_blank" rel="noopener noreferrer">
+        <LinkedIn className="icon"/>
+      </a>
+    </div>
     <div className="SocialMediaBar__icon">
       <a
         href="https://www.facebook.com/mcgillhacks/"
