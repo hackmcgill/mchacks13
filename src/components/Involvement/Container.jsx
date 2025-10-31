@@ -67,13 +67,22 @@ const Container = styled.section`
   }
 
   .mchacks13-mushroom {
-      position: absolute;
-      top: -200px;
-      right: 450px;
-      fill: white;
-      filter: drop-shadow(0 0 6px rgba(255,255,255,0.8));
+    position: absolute;
+    top: -200px;
+    right: 450px;
+    fill: white;
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.8));
+    animation: shine 2.5s infinite ease-in-out;
   }
 
+  @keyframes shine {
+    0%, 100% {
+      filter: drop-shadow(0 0 4px rgba(255,255,255,0.6));
+    }
+    50% {
+      filter: drop-shadow(0 0 12px rgba(255,255,255,1));
+    }
+  }
 
   @media screen and (max-width: 1800px) {
     .mchacks13-mushroom {
@@ -87,6 +96,7 @@ const Container = styled.section`
     }
 
   }
+
   &.hidden {
     display: none !important;
   }
@@ -99,7 +109,7 @@ const Container = styled.section`
   @media screen and (max-width: ${styleVars.smUp}) {
     margin-top: 20px;
     padding-left: 0;
-    
+
     .QuestionBox {
       padding: 6px 24px;
       margin-bottom: 10px;
