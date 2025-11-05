@@ -34,6 +34,7 @@ body {
   background: url(../assets/images/designs/mchacks13-bg.svg);
   background-repeat: no-repeat;
   background-size: 100%;
+  background-color: #121947;
   cursor: url(../../static/mchacks13-cursor.png), auto;
 }
 
@@ -41,7 +42,6 @@ body {
   body {
     background: url(../assets/images/designs/mchacks13-bg-mobile.svg);
     background-repeat: no-repeat;
-    background-color: #3f6451;
   }
 }
 
