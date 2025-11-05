@@ -64,6 +64,11 @@ const FAQ = ({ scrollRef }) => (
               </a>{" "}
               for more information.
             </Question> */}
+            <Question question="Will you be offering travel reimbursements?">
+              Unfortunately, at this time we are not able to provide travel
+              reimbursements, however we will have sleeping areas available at
+              the venue itself so you don't need to pay for lodging.
+            </Question>
             <Question question="I have more questions!">
               We have answers! Feel free to send us a DM on Facebook, Instagram,
               or Twitter, or email us at{" "}
