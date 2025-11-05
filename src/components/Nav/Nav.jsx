@@ -9,7 +9,6 @@ import IconContainer from "./IconContainer"
 import Links from "./Links"
 import MobileMenu from "./MobileMenu"
 import NavLink from "./NavLink"
-import Background from "./Background"
 
 import SocialMediaBar from "../SocialMedia/SocialMediaBar"
 import HomeLogoContainer from "./HomeLogoContainer"
@@ -119,9 +118,6 @@ const Nav = ({
         </HomeLogoContainer>
 
       </div>
-      {/*<Background $scrolled={scrolled}>*/}
-      {/*  <div className={`background ${hiddenBackground ? "hidden" : ""}`}></div>*/}
-      {/*</Background>*/}
       <Menu isOpen={true} styles={MobileMenu} $hasBorder={hasBorder}>
         {NavItems(true)}
       </Menu>
