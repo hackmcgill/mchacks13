@@ -24,7 +24,7 @@ const LiveContainer = styled(Container)`
     padding: 12px 24px;
     text-align: left;
     font-size: 1.1em;
-    cursor: url(${HoverCursor}), auto;
+    cursor: url(${HoverCursor}) 0 28, auto;
     box-sizing: border-box;
     margin: 20px auto 20px auto;
   }

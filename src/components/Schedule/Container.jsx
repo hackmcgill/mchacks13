@@ -44,7 +44,7 @@ export const Container = styled.section`
     .DayTab {
       text-align: center;
       flex: 1;
-      cursor: url(${HoverCursor}), auto;
+      cursor: url(${HoverCursor}) 0 28, auto;
       border-bottom: 2px solid ${styleVars.hackBlack20};
       padding: 35px 0 10px 0;
       font-size: 1.2em;

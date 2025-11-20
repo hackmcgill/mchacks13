@@ -26,7 +26,7 @@ export const Container = styled.nav`
   .home-link {
     font-family: "ArcadeClassic", sans-serif;
     font-size: 24px;
-    cursor: url(${HoverCursor}), auto;
+    cursor: url(${HoverCursor}) 0 28, auto;
     color: ${styleVars.m12Maroon};
     text-decoration: none;
     transition: color 0.3s ease;

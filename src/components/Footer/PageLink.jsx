@@ -19,7 +19,7 @@ export const PageLink = styled.a`
   `}  
 
   font-weight: 500;
-  cursor: url(${HoverCursor}), auto;
+  cursor: url(${HoverCursor}) 0 28, auto;
   text-decoration: none;
   letter-spacing: 1px;
   word-spacing: 3px;

@@ -35,7 +35,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: #121947;
-  cursor: url(../../static/mchacks13-cursor.png), auto;
+  cursor: url(../../static/mchacks13-cursor.png) 0 28, auto;
 }
 
 @media only screen and (max-width: 435px) {
@@ -62,12 +62,12 @@ a {
 }
 
 a:hover {
-  cursor: url(../../static/mchacks13-hover-cursor.png), auto;
+  cursor: url(../../static/mchacks13-hover-cursor.png) 0 28, auto;
   color: #f56f65;
 }
 
 button {
-  cursor: url(../../static/mchacks13-hover-cursor.png), auto;
+  cursor: url(../../static/mchacks13-hover-cursor.png) 0 28, auto;
   outline: none;
 }
 
