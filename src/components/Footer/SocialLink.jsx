@@ -17,7 +17,7 @@ export const SocialLink = styled.a`
       color: ${styleVars.m12Maroon};
     } 
   `}
-  cursor: url(${HoverCursor}), auto;
+  cursor: url(${HoverCursor}) 0 28, auto;
   text-decoration: none;
   font-size: 16px;
 `;
