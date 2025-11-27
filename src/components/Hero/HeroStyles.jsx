@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import * as styleVars from "../variable"
+import HoverCursor from "../../../static/mchacks13-hover-cursor.png"
 
 
 export const HeroStyles = styled.section`
@@ -83,6 +84,8 @@ export const HeroStyles = styled.section`
     transform: translateY(50%);
     height: 420px;
     width: 250px;
+    cursor: url(${HoverCursor}) 0 28, auto;
+    z-index: 10;
 
     @media (max-width: ${styleVars.smUp}) {
       transform: translateY(60%);
@@ -196,6 +199,7 @@ export const HeroStyles = styled.section`
   }
 
   .hero__wrapper {
+    position: relative;
     display: flex;
     flex-direction: column;
     z-index: 1;
