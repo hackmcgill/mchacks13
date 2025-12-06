@@ -6,12 +6,12 @@ import Content from "./Content"
 import Logo from "./Logo"
 import Tier from "./Tier"
 
-const Logos = ({ scrollRef }) => {
+const CommunityPartnerLogos = ({ scrollRef }) => {
   const {
-    allGoogleSpreadsheetSponsors: { edges },
+    allGoogleSpreadsheetCommunityPartners: { edges },
   } = useStaticQuery(graphql`
     query {
-      allGoogleSpreadsheetSponsors {
+      allGoogleSpreadsheetCommunityPartners {
         edges {
           node {
             tier
@@ -29,7 +29,7 @@ const Logos = ({ scrollRef }) => {
     <Container ref={scrollRef}>
       {edges.length > 0 ? (
         <Content>
-          <h1 className="our-sponsors">Past Sponsors</h1>
+          <h1 className="our-sponsors">Community Partners</h1>
           {TIERS.map((tier) => (
             <Tier key={tier}>
               {edges
@@ -58,4 +58,4 @@ const Logos = ({ scrollRef }) => {
   )
 }
 
-export default Logos
+export default CommunityPartnerLogos
