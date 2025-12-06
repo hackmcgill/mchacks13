@@ -7,9 +7,11 @@ import About from "../components/About/About"
 import Sponsor from "../components/Sponsor/Sponsor"
 import FAQ from "../components/FAQ/FAQ"
 import Involvement from "../components/Involvement/Involvement"
-import Logos from "../components/Logos/Logos"
+import SponsorLogos from "../components/Logos/SponsorLogos"
 import Footer from "../components/Footer/Footer"
 import EventInfo from "../components/EventInfo/EventInfo"
+import CommunityPartnerLogos from "../components/Logos/CommunityPartnerLogos"
+import TravelPartnerLogos from "../components/Logos/TravelPartnerLogos"
 
 const scrollTo = (ref, offset = 50) => {
   if (ref.current) {
@@ -47,7 +49,9 @@ const IndexPage = () => {
       <Sponsor scrollRef={sponsorRef} />
       <Involvement scrollRef={involvementRef}/>
       <FAQ scrollRef={faqRef} />
-      <Logos />
+      <SponsorLogos />
+      <CommunityPartnerLogos />
+      <TravelPartnerLogos />
       <Footer />
     </div>
   )
