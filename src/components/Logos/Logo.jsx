@@ -53,7 +53,8 @@ const Content = ({ link, image, alt }) => {
 const TeraLogo = styled(StyledLogo)`
   a {
     img {
-      height: 305px;
+      max-height: 400px;
+      max-width: 700px;
     }
   }
 `
@@ -61,7 +62,8 @@ const TeraLogo = styled(StyledLogo)`
 const GigaLogo = styled(StyledLogo)`
   a {
     img {
-      height: 200px;
+      max-height: 320px;
+      max-width: 600px;
     }
   }
 `
@@ -69,8 +71,8 @@ const GigaLogo = styled(StyledLogo)`
 const MegaLogo = styled(StyledLogo)`
   a {
     img {
-      max-height: 300px;
-      max-width: 275px;
+      max-height: 260px;
+      max-width: 500px;
     }
   }
 `
@@ -78,7 +80,8 @@ const MegaLogo = styled(StyledLogo)`
 const KiloLogo = styled(StyledLogo)`
   a {
     img {
-      height: 115px;
+      max-height: 200px;
+      max-width: 410px;
     }
   }
 `
@@ -86,8 +89,8 @@ const KiloLogo = styled(StyledLogo)`
 const ByteLogo = styled(StyledLogo)`
   a {
     img {
-      max-height: 175px;
-      max-width: 150px;
+      max-height: 140px;
+      max-width: 240px;
     }
   }
 `
@@ -95,9 +98,8 @@ const ByteLogo = styled(StyledLogo)`
 const InKindLogo = styled(StyledLogo)`
   a {
     img {
-      max-height: 75px;
-      max-width: 125px;
-      
+      max-height: 110px;
+      max-width: 200px;
     }
   }
 `
