@@ -1,7 +1,5 @@
 import React from "react"
-import Button from "./Button"
 import HeroStyles from "./HeroStyles"
-import SignUpForm from "./SignUpForm"
 import McHacksLogo from "../../assets/images/designs/mchacks13-heroLogo.svg"
 import Moon from "../../assets/images/designs/mchacks13-moon.svg"
 import LeftCloud from "../../assets/images/designs/mchacks13-leftCloud.svg"
@@ -59,13 +57,11 @@ const Hero = () => (
       </div>
       <div className="grid__clouds"></div>
       <p className="hero__challenge-text">
-        Want to win $1000? Sign up for the Backboard.io x McHacks 13 Pre-Hackathon Challenge! Open to anyone and everyone. You can still participate even if you are not a confirmed McHacks 13 participant.
+        Want to win $1000? Sign up for the Backboard.io x McHacks 13
+        Pre-Hackathon Challenge submit your project by January 14th, 11:59pm
+        PST! Open to anyone and everyone. You can still participate even if you
+        are not a McHacks 13 participant.
       </p>
-      {/*<Button disabled={false} onClick={apply}>*/}
-      {/*  Click to apply!*/}
-      {/*</Button>*/}
-      {/* <Button onClick={live}>Live Site →</Button> */}
-      {/*Necessary for clicking to work*/}
       <div className="invisible-apply" onClick={apply} />
       <img
         src={Portal}
