@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import * as styleVars from "../variable"
 
 const StyledLogo = styled.section`
   display: flex;
@@ -55,6 +56,11 @@ const TeraLogo = styled(StyledLogo)`
     img {
       max-height: 400px;
       max-width: 700px;
+
+      @media only screen and (max-width: ${styleVars.smUp}) {
+        max-height: 140px;
+        max-width: 240px;
+      }
     }
   }
 `
@@ -64,6 +70,11 @@ const GigaLogo = styled(StyledLogo)`
     img {
       max-height: 320px;
       max-width: 600px;
+
+      @media only screen and (max-width: ${styleVars.smUp}) {
+        max-height: 140px;
+        max-width: 240px;
+      }
     }
   }
 `
@@ -73,6 +84,11 @@ const MegaLogo = styled(StyledLogo)`
     img {
       max-height: 260px;
       max-width: 500px;
+
+      @media only screen and (max-width: ${styleVars.smUp}) {
+        max-height: 140px;
+        max-width: 240px;
+      }
     }
   }
 `
@@ -82,6 +98,11 @@ const KiloLogo = styled(StyledLogo)`
     img {
       max-height: 200px;
       max-width: 410px;
+
+      @media only screen and (max-width: ${styleVars.smUp}) {
+        max-height: 140px;
+        max-width: 240px;
+      }
     }
   }
 `
@@ -100,6 +121,11 @@ const InKindLogo = styled(StyledLogo)`
     img {
       max-height: 110px;
       max-width: 200px;
+
+      @media only screen and (max-width: ${styleVars.smUp}) {
+        max-height: 140px;
+        max-width: 240px;
+      }
     }
   }
 `
