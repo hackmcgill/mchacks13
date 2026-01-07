@@ -31,51 +31,33 @@ export const HeroStyles = styled.section`
     }
   }
   
-  .hero__apply {
-    position: absolute;
-
-    @media (min-width: 2000px) {
-      transform: translateY(-8%);
-    }
-
-    @media (max-width: 1950px) {
-      transform: translateY(-4%);
-    }
-
-    @media (max-width: 1700px) {
-      width: 80%;
-      transform: translateY(4%);
-    }
+  .hero__challenge-text {
+    font-family: "Afacad", sans-serif;
+    color: #d9f1ff;
+    font-size: 24px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    margin-bottom: -100px; /* Pull portal up slightly or adjust as needed */
+    z-index: 2;
     
-    @media (max-width: 1500px) {
-      width: 80%;
-      transform: translateY(18%);
-    }
-
     @media (max-width: ${styleVars.lgUp}) {
-      width: 70%;
-      transform: translateY(-19%);
-    }
-    
-    @media (max-width: ${styleVars.mdUp}) {
-      width: 70%;
-      transform: translateY(-17%);
+      font-size: 18px;
+      padding: 15px;
+      max-width: 90%;
+      margin-bottom: -50px;
     }
 
-    @media (max-width: 600px) {
-      transform: translateY(0);
-    }
-    
-    @media (max-width: 540px) {
-      transform: translateY(5%);
-    }
-
-    @media (max-width: 490px) {
-      transform: translateY(10%);
-    }
-    
-    @media (max-width: ${styleVars.xsUp}) {
-      transform: translateY(10%);
+    @media (max-width: ${styleVars.smUp}) {
+      font-size: 16px;
+      padding: 10px;
+       margin-bottom: -20px;
     }
   }
   

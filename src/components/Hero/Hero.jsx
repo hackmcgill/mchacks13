@@ -12,7 +12,6 @@ import star2 from "../../assets/images/designs/mchacks13-star2.svg"
 import star3 from "../../assets/images/designs/mchacks13-star3.svg"
 import star4 from "../../assets/images/designs/mchacks13-star4.svg"
 import Portal from "../../assets/gifs/mchacks13-portal.gif"
-import clickToApply from "../../assets/images/designs/click-apply.svg"
 
 const interestForm = () => {
   window.location = "https://forms.gle/Xp6Li1dXW4uNEQxp8"
@@ -23,7 +22,7 @@ const interestForm = () => {
 // }
 
 const apply = () => {
-  window.location = "https://app.mchacks.ca/"
+  window.open("/backboard.io_challenge.pdf", "_blank")
 }
 
 const Hero = () => (
@@ -59,11 +58,9 @@ const Hero = () => (
         </div>
       </div>
       <div className="grid__clouds"></div>
-      <img
-        src={clickToApply}
-        className="hero__apply"
-        alt="Click to apply"
-      />
+      <p className="hero__challenge-text">
+        Want to win $1000? Sign up for the Backboard.io x McHacks 13 Pre-Hackathon Challenge! Open to anyone and everyone. You can still participate even if you are not a confirmed McHacks 13 participant.
+      </p>
       {/*<Button disabled={false} onClick={apply}>*/}
       {/*  Click to apply!*/}
       {/*</Button>*/}
