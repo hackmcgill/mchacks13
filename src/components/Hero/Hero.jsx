@@ -58,9 +58,10 @@ const Hero = () => (
       <div className="grid__clouds"></div>
       <p className="hero__challenge-text">
         Want to win $1000? Sign up for the Backboard.io x McHacks 13
-        Pre-Hackathon Challenge and submit your project by January 14th, 11:59pm
-        PST! Open to anyone and everyone. You can still participate even if you
-        are not a McHacks 13 participant. <b>Click the portal below for more info!</b>
+        Pre-Hackathon Challenge and submit your project by January 15th, 12:00pm
+        PST! The deadline has just been extended! Open to anyone and everyone.
+        You can still participate even if you are not a McHacks 13 participant.{" "}
+        <b>Click the portal below for more info!</b>
       </p>
       <div className="invisible-apply" onClick={apply} />
       <img
