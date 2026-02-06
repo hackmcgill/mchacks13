@@ -20,7 +20,7 @@ const interestForm = () => {
 // }
 
 const apply = () => {
-  window.open("/backboard.io_challenge.pdf", "_blank")
+  window.open("/bot_or_not_challenge.pdf", "_blank")
 }
 
 const Hero = () => (
@@ -40,7 +40,7 @@ const Hero = () => (
         <img
           className="hero__heading-image"
           src={McHacksLogo}
-          alt="McHacks 12"
+          alt="McHacks 13"
         />
         <div className="hero__rightCloud-container">
           <img src={RightCloud} className="hero__rightCloud" alt="Cloud" />
@@ -57,10 +57,10 @@ const Hero = () => (
       </div>
       <div className="grid__clouds"></div>
       <p className="hero__challenge-text">
-        Want to win $1000? Sign up for the Backboard.io x McHacks 13
-        Pre-Hackathon Challenge and submit your project by January 15th, 12:00pm
-        PST! The deadline has just been extended! Open to anyone and everyone.
-        You can still participate even if you are not a McHacks 13 participant.{" "}
+       Want to win $1000 or $500? Think you can tell humans from bots on 
+       social media? Prove it and sign up for the Bot or Not Post Hackathon
+       Challenge and submit your project by February 14th, 1:00 PM EST! Open
+       to anyone and everyone. You can still register until the submission deadline.{" "}
         <b>Click the portal below for more info!</b>
       </p>
       <div className="invisible-apply" onClick={apply} />
