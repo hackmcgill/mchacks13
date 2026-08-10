@@ -7,11 +7,13 @@ import Button from "./Button"
 import mushroom from "../../assets/images/designs/mchacks13-mushroom.png"
 
 const applyMentorJudge = () => {
-  window.location = "https://forms.gle/axyN3GZnfW2Cmtmz8"
+  window.location =
+    "https://docs.google.com/forms/d/e/1FAIpQLSeBDT2TCbXlj47mLSM6HCzDLgQe6ZD1cYwvjv6m4-8GbL8XWA/viewform"
 }
 
 const applyVolunteer = () => {
-  window.location = "https://forms.gle/fu6xyJaRdcTi9Gss6"
+  window.location =
+    "https://docs.google.com/forms/d/e/1FAIpQLScV7bk5yhAMqyI25r6ubHDoz5hlbG5UKZR9cf5NKgW2upCz4Q/viewform"
 }
 
 const Involvement = ({ scrollRef }) => (
