@@ -7,18 +7,23 @@ export const Content = styled.div`
   align-items: center;
   background-color: rgba(170, 170, 170, 0.3);
   backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); /* Safari support */
   border-radius: 32px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   padding: 16px 36px;
-  max-width: 1440px;
   gap: 60px;
+  box-sizing: border-box;
+
+  /* Desktop sizing */
+  width: fit-content;
+  max-width: 1440px;
 
   @media only screen and (max-width: ${styleVars.mdUp}) {
+    /* Mobile/Tablet: Fill width cleanly inside parent */
+    width: calc(100% - 32px);
     flex-direction: column;
     justify-content: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 40px;
+    padding: 40px 30px 16px 30px;
 
     .bubbles {
       display: none;
@@ -26,10 +31,11 @@ export const Content = styled.div`
   }
 
   @media only screen and (max-width: ${styleVars.smUp}) {
-    padding: 0;
+    padding: 20px 16px;
   }
 
   @media only screen and (max-width: ${styleVars.xsUp}) {
+    width: calc(100% - 20px);
     padding: 10px;
     gap: 30px;
   }
